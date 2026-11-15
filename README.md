@@ -13,6 +13,8 @@ Source, assets and rebuild tools for the Society of Lancaster University Graduat
 | `reports/` | Link-repair report, detailed results and snapshot manifests |
 | `tools/archive-migration/` | Historical migration/audit code, retained for reference |
 
+For addresses, account names and login instructions, see [User access](docs/USER-ACCESS.md).
+
 See [current status](docs/STATUS.md) before deploying. Source being committed does **not** mean the container is already running on the NAS.
 
 ## Rebuild the website
