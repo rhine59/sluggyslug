@@ -20,6 +20,6 @@ A local Docker test container was run with a disposable copy of the homepage, Ev
 
 ## Deployment acceptance
 
-NAS image build, HTTPS routing, production account setup and live disposable-page/upload tests remain outstanding until deployment. Follow DEPLOYMENT.md. A local successful test is not evidence that the NAS service is already live.
+The owner confirmed the NAS container running and healthy, HTTPS configured, and initial account setup working on 15 November 2026. Live disposable-page/upload/restore and restricted-account checks still need production acceptance; follow DEPLOYMENT.md. Local test results remain separate from owner-reported deployment checks.
 
 A GitHub Actions template is supplied in `ci/editor-tests.yml`; installing it under `.github/workflows/` requires a GitHub credential permitted to update workflows. The current Git credential does not have that scope, so the template is not enabled automatically. When enabled, it runs backend/repository tests and packaging/build checks. A full local website check requires the website assets; CI can use the committed manifests to avoid downloading the photo archive for every editor change.

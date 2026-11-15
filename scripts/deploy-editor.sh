@@ -11,5 +11,5 @@ fi
 [ -d /volume1/web/slugs ] || { echo 'Expected NAS website root is missing'; exit 1; }
 cd "$repo_dir/editor"
 docker compose -f docker-compose.yml config --quiet
-docker compose -f docker-compose.yml up -d --build
+docker compose -f docker-compose.yml up -d --build --force-recreate
 docker compose -f docker-compose.yml ps

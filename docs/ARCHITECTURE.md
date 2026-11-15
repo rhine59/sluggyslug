@@ -9,7 +9,7 @@ Web Station continues to serve `/volume1/web/slugs`. The original archive is at 
 ```mermaid
 flowchart LR
   Browser[Author's browser] -->|HTTPS| Proxy[Synology HTTPS reverse proxy]
-  Proxy -->|Loopback HTTP :9087| App[slugs-editor: Waitress + Flask]
+  Proxy -->|Loopback HTTP :8097| App[slugs-editor: Waitress + Flask]
   App -->|Read / write| Website[/volume1/web/slugs mounted at /site]
   App -->|Accounts, sessions, audit| DB[(Private SQLite database)]
   App -->|Prior file versions| Backup[Private revision storage]

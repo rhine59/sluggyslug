@@ -16,9 +16,13 @@ Updated 15 November 2026.
 
 ## NAS staging
 
-`/volume1/docker/slugs-editor` was created. The updated source package, including the save-control/font fixes and documentation, was uploaded and extracted there on 15 November 2026. The application has not yet been built or started on the NAS.
+The application is deployed at `/volume1/docker/slugs-editor`, mounting `/volume1/web/slugs` read/write. The owner supplied container output confirming `slugs-editor` running and healthy on NAS loopback **127.0.0.1:8097 → container 8080**.
 
-The NAS Container Manager project was created and its image build was started after launch approval. A running `slugs-editor` container has not yet been verified. HTTPS routing and first-administrator setup remain to be completed. No production editor accounts exist yet. The currently served website was not changed by the editor test; the test used a separate local copy.
+The HTTPS reverse proxy destination was corrected to port 8097. The owner confirmed certificates sorted and subsequently confirmed editor account setup working. The production administrator's username/password and setup code remain private and are not recorded in Git.
+
+The application now retains forwarded headers at the Waitress boundary so Flask's configured ProxyFix can determine the public HTTPS origin. The reverse proxy supplies `X-Forwarded-Proto: https` and `X-Forwarded-Host: slugs-editor.granvillehouse.synology.me`. The origin/CSRF checks remain enabled. These settings require the backend to stay on loopback behind the trusted NAS proxy.
+
+Production visual-save/upload/restore and restricted-account acceptance checks have not been independently observed; the automated and local browser checks are described above. No production account database, private revision data or credentials are copied into this repository.
 
 ## Website history
 

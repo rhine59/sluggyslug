@@ -15,7 +15,7 @@ Source, assets and rebuild tools for the Society of Lancaster University Graduat
 
 For addresses, account names and login instructions, see [User access](docs/USER-ACCESS.md).
 
-See [current status](docs/STATUS.md) before deploying. Source being committed does **not** mean the container is already running on the NAS.
+See [current status](docs/STATUS.md) before deploying. The owner has confirmed the NAS container healthy and HTTPS/account setup working; remaining acceptance checks are listed in the status document.
 
 ## Rebuild the website
 
@@ -39,6 +39,6 @@ python3 scripts/package-editor.py --output dist/slugs-editor-container.zip
 ./scripts/rebuild-editor.sh
 ```
 
-[Deploy on Synology](docs/DEPLOYMENT.md) · [Architecture](docs/ARCHITECTURE.md) · [Editor guide](docs/EDITOR.md) · [Test harness](docs/TESTING.md) · [Security and recovery](docs/SECURITY.md)
+[Full rebuild, setup and tests](docs/REBUILD-SETUP-TEST.md) · [Deploy on Synology](docs/DEPLOYMENT.md) · [Architecture](docs/ARCHITECTURE.md) · [Editor guide](docs/EDITOR.md) · [Test harness](docs/TESTING.md) · [Security and recovery](docs/SECURITY.md)
 
 Credentials, SSH keys, account databases and private revision backups are not part of this repository. Website photographs and documents retain their existing contributor copyright notices; no blanket licence is assigned to the archive. Third-party editor licences are included alongside their code.

@@ -8,7 +8,7 @@ Updated 15 November 2026. This guide records connection details, not passwords o
 | --- | --- | --- |
 | Original public website | https://slugs.granvillehouse.synology.me/ | No login |
 | Reorganised website | https://slugs.granvillehouse.synology.me/new/ | No login |
-| Visual editor | https://slugs-editor.granvillehouse.synology.me/ | Intended production address; HTTPS and first-account setup are still pending verification |
+| Visual editor | https://slugs-editor.granvillehouse.synology.me/ | HTTPS and initial account setup confirmed by the owner |
 | Synology administration | https://granvillehouse.synology.me:4001/ | NAS administrator login |
 | External reports blog | https://slugsreports.blogspot.com/ | Public external website |
 
@@ -18,7 +18,7 @@ Updated 15 November 2026. This guide records connection details, not passwords o
 | --- | --- | --- |
 | NAS administration | `Goredale` | Existing NAS password, held privately by the owner; not an editor login |
 | Restricted NAS SSH | `slugs` | Existing SSH private key; internet port **2234**; access confined to the website directory |
-| Website editor administrator | Not yet created or verified | Choose an individual username and password during first setup; there is no default password |
+| Website editor administrator | Chosen privately by the owner | Initial setup completed; individual username/password held privately; there is no default password |
 | Other website editors | Created by an editor administrator | Separate username/password per person; these are independent of NAS accounts |
 | GitHub | `rhine59` / repository `sluggyslug` | GitHub account authentication; collaborators need repository access granted by the owner |
 
@@ -66,6 +66,6 @@ An editor administrator can reset another user's password through User accounts.
 - NAS project directory: `/volume1/docker/slugs-editor`.
 - Full website mount: `/volume1/web/slugs` → `/site`, read/write.
 - Private account/history volume: `slugs-editor-data` → `/data`.
-- Internal service: `http://127.0.0.1:9087`, reached through the NAS HTTPS reverse proxy; not a public login address.
+- Internal service: `http://127.0.0.1:8097`, reached through the NAS HTTPS reverse proxy; not a public login address.
 - Repository: https://github.com/rhine59/sluggyslug (private).
 - Bulk photographs remain on the NAS; see [media restoration instructions](../README.md#rebuild-the-website).

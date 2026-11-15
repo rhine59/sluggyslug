@@ -8,7 +8,7 @@ Name: slugs-editor
 Website mount: /volume1/web/slugs -> /site, read/write
 Private account and backup storage: Docker volume slugs-editor-data -> /data
 Process: unprivileged UID 1026, GID 100; no Docker socket or privileged mode
-Backend listener: NAS loopback 127.0.0.1:9087 (HTTP, behind HTTPS reverse proxy)
+Backend listener: NAS loopback 127.0.0.1:8097 (HTTP, behind HTTPS reverse proxy)
 Build: docker compose -f docker-compose.yml up -d --build
 
 Expose the editor through a trusted HTTPS reverse proxy. COOKIE_SECURE=1 is required for production; no public HTTP login. Keep the backend port on loopback. TRUST_PROXY=1 is appropriate only behind the NAS proxy.
