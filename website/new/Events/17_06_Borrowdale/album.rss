@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>17_06_Borrowdale</title>
+   	<link>.</link>
+        <generator>jAlbum 9</generator>
+   		<description>Phil and Rosie</description>
+        <item>
+            <title>01 Derwent Water from Raven Crag</title>
+            <link>slides/01 Derwent Water from Raven Crag.html#</link>
+            <pubDate>Wed, 28 Jun 2017 09:47:02 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/01 Derwent Water from Raven Crag.JPG" width="450" height="337"/>
+            <media:content type="image/jpeg" url="slides/01 Derwent Water from Raven Crag.JPG" width="1024" height="768"/>
+            <jalbum:original url="01 Derwent Water from Raven Crag.JPG" width="4000" height="3000" fileSize="3750396"/>
+            <jalbum:exif originalDate="17/06/17 18:54" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/01 Derwent Water from Raven Crag.JPG</guid>
+        </item>
+        <item>
+            <title>02 abseiling in soft focus</title>
+            <link>slides/02 abseiling in soft focus.html#</link>
+            <pubDate>Wed, 28 Jun 2017 09:47:02 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/02 abseiling in soft focus.JPG" width="450" height="336"/>
+            <media:content type="image/jpeg" url="slides/02 abseiling in soft focus.JPG" width="1024" height="766"/>
+            <jalbum:original url="02 abseiling in soft focus.JPG" width="2288" height="1712" fileSize="649205"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/02 abseiling in soft focus.JPG</guid>
+        </item>
+        <item>
+            <title>03 Ken</title>
+            <link>slides/03 Ken.html#</link>
+            <pubDate>Wed, 28 Jun 2017 09:47:02 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/03 Ken.JPG" width="450" height="336"/>
+            <media:content type="image/jpeg" url="slides/03 Ken.JPG" width="1024" height="766"/>
+            <jalbum:original url="03 Ken.JPG" width="2288" height="1712" fileSize="791943"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/03 Ken.JPG</guid>
+        </item>
+        <item>
+            <title>04 Ken again</title>
+            <link>slides/04 Ken again.html#</link>
+            <pubDate>Wed, 28 Jun 2017 09:47:02 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/04 Ken again.JPG" width="450" height="336"/>
+            <media:content type="image/jpeg" url="slides/04 Ken again.JPG" width="1024" height="766"/>
+            <jalbum:original url="04 Ken again.JPG" width="2288" height="1712" fileSize="818820"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/04 Ken again.JPG</guid>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>17_09_Notts_II</title>
+   	<link>.</link>
+        <generator>jAlbum 9</generator>
+   		<description>Phil and Rosie</description>
+        <item>
+            <title>1. The morning after the cave before</title>
+            <link>slides/1. The morning after the cave before.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:53:27 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/1. The morning after the cave before.JPG" width="450" height="336"/>
+            <media:content type="image/jpeg" url="slides/1. The morning after the cave before.JPG" width="1024" height="766"/>
+            <jalbum:original url="1. The morning after the cave before.JPG" width="2288" height="1712" fileSize="826514"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/1. The morning after the cave before.JPG</guid>
+        </item>
+        <item>
+            <title>2. Genuine Whernside Wellies</title>
+            <link>slides/2. Genuine Whernside Wellies.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:53:27 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2. Genuine Whernside Wellies.JPG" width="336" height="450"/>
+            <media:content type="image/jpeg" url="slides/2. Genuine Whernside Wellies.JPG" width="766" height="1024"/>
+            <jalbum:original url="2. Genuine Whernside Wellies.JPG" width="1712" height="2288" fileSize="843362"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/2. Genuine Whernside Wellies.JPG</guid>
+        </item>
+    </channel>
+</rss>

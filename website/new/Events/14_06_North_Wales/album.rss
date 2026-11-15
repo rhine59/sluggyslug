@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Aviemore March 2007</title>
+   	<link>.</link>
+        <generator>Jalbum 8.5</generator>
+   		<description>Phil and Rosie</description>
+        
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Saturday 1.html#</link>
+            <pubDate>Tue, 24 Jun 2014 14:44:10 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Saturday 1.jpg" width="450" height="252"/>
+            <media:content url="slides/Saturday 1.jpg" width="800" height="449"/>
+            <jalbum:original url="Saturday 1.jpg" width="2592" height="1456" fileSize="1401077"/>
+            <jalbum:exif originalDate="31/05/14 16:22" cameraMake="Motorola" cameraModel="XT1032"/>
+            <guid isPermaLink="false">slides/Saturday 1.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Saturday 2.html#</link>
+            <pubDate>Tue, 24 Jun 2014 14:44:10 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Saturday 2.JPG" width="450" height="336"/>
+            <media:content url="slides/Saturday 2.JPG" width="800" height="598"/>
+            <jalbum:original url="Saturday 2.JPG" width="2288" height="1712" fileSize="799413"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/Saturday 2.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Sunday 1.html#</link>
+            <pubDate>Tue, 24 Jun 2014 14:44:10 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Sunday 1.JPG" width="450" height="336"/>
+            <media:content url="slides/Sunday 1.JPG" width="800" height="598"/>
+            <jalbum:original url="Sunday 1.JPG" width="2288" height="1712" fileSize="844812"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/Sunday 1.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Sunday 2.html#</link>
+            <pubDate>Tue, 24 Jun 2014 14:44:10 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Sunday 2.JPG" width="450" height="336"/>
+            <media:content url="slides/Sunday 2.JPG" width="800" height="598"/>
+            <jalbum:original url="Sunday 2.JPG" width="2288" height="1712" fileSize="746191"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/Sunday 2.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Sunday 3.html#</link>
+            <pubDate>Tue, 24 Jun 2014 14:44:10 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Sunday 3.JPG" width="450" height="336"/>
+            <media:content url="slides/Sunday 3.JPG" width="800" height="598"/>
+            <jalbum:original url="Sunday 3.JPG" width="2288" height="1712" fileSize="740106"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/Sunday 3.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Sunday 4.html#</link>
+            <pubDate>Tue, 24 Jun 2014 14:44:10 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Sunday 4.JPG" width="450" height="336"/>
+            <media:content url="slides/Sunday 4.JPG" width="800" height="598"/>
+            <jalbum:original url="Sunday 4.JPG" width="2288" height="1712" fileSize="848125"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/Sunday 4.JPG</guid>
+        </item>
+        
+    </channel>
+</rss>

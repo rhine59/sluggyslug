@@ -1,0 +1,96 @@
+#!/usr/local/bin/perl
+# @(#) comment l1.00 arb Wed Apr 20 12:25:52 BST 1994
+# From d1.00: version,script,comentee,From:,X-Mailer,contents
+
+$len=$ENV{'CONTENT_LENGTH'};
+$request_method=$ENV{'REQUEST_METHOD'};
+$content_type=$ENV{'CONTENT_TYPE'};
+$remote_user=$ENV{'REMOTE_USER'};
+$remote_addr=$ENV{'REMOTE_ADDR'};
+$remote_host=$ENV{'REMOTE_HOST'};
+$content_len=$ENV{'CONTENT_LENGTH'};
+@vars=();
+
+$tmp="/tmp/comment.$$";
+$sendmail="/usr/lib/sendmail";
+$commentee="LUSS@lancaster.ac.uk";
+$alsoto="sean@comp.lancs.ac.uk";
+$script="contact.html";
+
+print "Content-type: text/html\n";
+print "\n";
+print "<html><head><title>Thank you!</title></head><body>\n";
+
+if ($request_method ne "POST")
+{
+  print "Error1: This page should be accessed from a form.\n";
+  exit 1;
+}
+if ($content_type ne "application/x-www-form-urlencoded")
+{
+  print "Error2: This page should be accessed from a form.\n";
+  exit 1;
+}
+if ($content_len < 1)
+{
+  print "Error3: Content length must be > 0.\n";
+  exit 1;
+}
+
+if ($remote_user eq "")
+{
+  $remote_user="anon";
+}
+
+print "Your comment has been noted.<p>Thank you.<p>\n";
+
+read(stdin, $input, $content_len);
+$input =~ tr/+/ /;
+$pos = index($input, "&");
+while ($pos != -1)
+{
+  $item = substr($input, 0, $pos);
+  $input = substr($input, $pos+1);
+  print tmpfile $item."\n";
+  do process($item);
+  $pos = index($input, "&");
+}
+do process($input);
+
+open(tmpfile, ">".$tmp) || die("Cannot open temporary file, failed");
+print tmpfile "To: $commentee\n";
+print tmpfile "From: $vars{'Email'} ($vars{'Realname'})\n";
+print tmpfile "Date: ".`date`;
+print tmpfile "Subject: WWW Comment\n";
+print tmpfile "X-Mailer: $script/httpd-1.2/comment-l1.00/sendmail\n";
+print tmpfile "\n";
+print tmpfile "Remote host   : $remote_host\n";
+print tmpfile "Remote address: $remote_addr\n";
+print tmpfile "Remote user   : $remote_user\n";
+print tmpfile "E-mail address: $vars{'Email'}\n";
+print tmpfile "Real name     : $vars{'Realname'}\n";
+print tmpfile "\nRequest:\n$vars{'Request'}\n";
+print tmpfile "\nServices:\n$vars{'Services'}\n";
+close tmpfile;
+
+system "$sendmail $commentee < $tmp > /dev/null";
+system "$sendmail $alsoto < $tmp > /dev/null";
+unlink $tmp;
+exit 0;
+
+# ----------------------------------------------------------
+
+sub process
+{
+  local($i, $r, $ch, $pos);
+  local($s)=$_[0];
+  for ($i=0; $i<length($s); $i++)
+  {
+    $ch=substr($s,$i,1);
+    if ($ch eq "%") { $r .= pack("c",hex(substr($s,$i+1,2))); $i+=2; }
+    else { $r .= $ch; }
+  }
+  $pos=index($r,"=");
+  if ($pos == -1) { return; }
+  $vars{substr($r,0,$pos)}=substr($r,$pos+1);
+}

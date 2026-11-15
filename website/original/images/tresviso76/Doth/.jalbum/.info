@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_67" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>imageSettingsHash</string>
+   <string>f4f5183847e576c4dc22efe74590bee9</string>
+  </void>
+  <void method="put">
+   <string>title</string>
+   <string>Tresviso 1976 from Doth</string>
+  </void>
+ </object>
+</java>

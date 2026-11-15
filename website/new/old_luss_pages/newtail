@@ -1,0 +1,9 @@
+#!/bin/sh
+for i in `cat newtail.files`
+do
+cat $i |sed -f newtail.sed > newtail.temp
+cat tail.html >> newtail.temp
+mv newtail.temp $i
+echo done $i
+done
+exit

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Aviemore March 2007</title>
+   	<link>.</link>
+        <generator>Jalbum 8.5</generator>
+   		<description>Phil and Rosie</description>
+        
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/P1011148 edit.html#</link>
+            <pubDate>Tue, 15 Nov 2016 15:54:49 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1011148 edit.jpg" width="450" height="337"/>
+            <media:content url="slides/P1011148 edit.jpg" width="1024" height="767"/>
+            <jalbum:original url="P1011148 edit.jpg" width="1694" height="1270" fileSize="1138823"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/P1011148 edit.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/P1011149.html#</link>
+            <pubDate>Tue, 15 Nov 2016 15:54:49 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1011149.JPG" width="450" height="336"/>
+            <media:content url="slides/P1011149.JPG" width="1024" height="766"/>
+            <jalbum:original url="P1011149.JPG" width="2288" height="1712" fileSize="748972"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/P1011149.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/P1011150 edit2.html#</link>
+            <pubDate>Tue, 15 Nov 2016 15:54:49 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1011150 edit2.jpg" width="450" height="336"/>
+            <media:content url="slides/P1011150 edit2.jpg" width="1024" height="765"/>
+            <jalbum:original url="P1011150 edit2.jpg" width="1529" height="1143" fileSize="1269687"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/P1011150 edit2.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/P1110592 edit.html#</link>
+            <pubDate>Tue, 15 Nov 2016 15:54:49 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1110592 edit.jpg" width="450" height="336"/>
+            <media:content url="slides/P1110592 edit.jpg" width="1024" height="766"/>
+            <jalbum:original url="P1110592 edit.jpg" width="2490" height="1863" fileSize="2128854"/>
+            <jalbum:exif originalDate="13/11/16 13:52" cameraMake="OLYMPUS CORPORATION" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/P1110592 edit.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/P1110600.html#</link>
+            <pubDate>Tue, 15 Nov 2016 15:54:49 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1110600.JPG" width="450" height="337"/>
+            <media:content url="slides/P1110600.JPG" width="1024" height="768"/>
+            <jalbum:original url="P1110600.JPG" width="4000" height="3000" fileSize="4282152"/>
+            <jalbum:exif originalDate="13/11/16 16:16" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/P1110600.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/P1110602.html#</link>
+            <pubDate>Tue, 15 Nov 2016 15:54:49 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1110602.JPG" width="450" height="337"/>
+            <media:content url="slides/P1110602.JPG" width="1024" height="768"/>
+            <jalbum:original url="P1110602.JPG" width="4000" height="3000" fileSize="4217541"/>
+            <jalbum:exif originalDate="13/11/16 16:18" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/P1110602.JPG</guid>
+        </item>
+        
+    </channel>
+</rss>

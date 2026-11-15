@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Clapdale 1978 from Doth</title>
+   	<link>.</link>
+        <generator>Jalbum 8.5</generator>
+   		<description></description>
+        
+        
+        <item>
+            <title>Clapdale_1978_Doth_01</title>
+            <link>slides/Clapdale_1978_Doth_01.html#</link>
+            <pubDate>Tue, 07 Aug 2012 10:35:11 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Clapdale_1978_Doth_01.jpg" width="334" height="340"/>
+            <media:content url="slides/Clapdale_1978_Doth_01.jpg" width="708" height="720"/>
+            <jalbum:original url="Clapdale_1978_Doth_01.jpg" width="2048" height="2080" fileSize="1670581"/>
+            
+            <guid isPermaLink="false">slides/Clapdale_1978_Doth_01.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Clapdale_1978_Doth_02</title>
+            <link>slides/Clapdale_1978_Doth_02.html#</link>
+            <pubDate>Tue, 07 Aug 2012 10:35:11 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Clapdale_1978_Doth_02.jpg" width="335" height="340"/>
+            <media:content url="slides/Clapdale_1978_Doth_02.jpg" width="711" height="720"/>
+            <jalbum:original url="Clapdale_1978_Doth_02.jpg" width="2048" height="2072" fileSize="1394427"/>
+            
+            <guid isPermaLink="false">slides/Clapdale_1978_Doth_02.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Clapdale_1978_Doth_03</title>
+            <link>slides/Clapdale_1978_Doth_03.html#</link>
+            <pubDate>Tue, 07 Aug 2012 10:35:11 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Clapdale_1978_Doth_03.jpg" width="334" height="340"/>
+            <media:content url="slides/Clapdale_1978_Doth_03.jpg" width="709" height="720"/>
+            <jalbum:original url="Clapdale_1978_Doth_03.jpg" width="2064" height="2096" fileSize="1072179"/>
+            
+            <guid isPermaLink="false">slides/Clapdale_1978_Doth_03.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Clapdale_1978_Doth_04</title>
+            <link>slides/Clapdale_1978_Doth_04.html#</link>
+            <pubDate>Tue, 07 Aug 2012 10:35:11 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Clapdale_1978_Doth_04.jpg" width="337" height="340"/>
+            <media:content url="slides/Clapdale_1978_Doth_04.jpg" width="715" height="720"/>
+            <jalbum:original url="Clapdale_1978_Doth_04.jpg" width="2052" height="2064" fileSize="1117389"/>
+            
+            <guid isPermaLink="false">slides/Clapdale_1978_Doth_04.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Clapdale_1978_Doth_05</title>
+            <link>slides/Clapdale_1978_Doth_05.html#</link>
+            <pubDate>Tue, 07 Aug 2012 10:35:11 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Clapdale_1978_Doth_05.jpg" width="339" height="340"/>
+            <media:content url="slides/Clapdale_1978_Doth_05.jpg" width="718" height="720"/>
+            <jalbum:original url="Clapdale_1978_Doth_05.jpg" width="2065" height="2070" fileSize="1044579"/>
+            
+            <guid isPermaLink="false">slides/Clapdale_1978_Doth_05.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Clapdale_1978_Doth_06</title>
+            <link>slides/Clapdale_1978_Doth_06.html#</link>
+            <pubDate>Tue, 07 Aug 2012 10:35:11 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Clapdale_1978_Doth_06.jpg" width="335" height="340"/>
+            <media:content url="slides/Clapdale_1978_Doth_06.jpg" width="710" height="720"/>
+            <jalbum:original url="Clapdale_1978_Doth_06.jpg" width="2043" height="2069" fileSize="1641466"/>
+            
+            <guid isPermaLink="false">slides/Clapdale_1978_Doth_06.jpg</guid>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,556 @@
+<TITLE>Cave Surveying Notes</TITLE>
+
+<H1>Cave surveying</H1>
+
+This file is a collection of brief documents contributed by Olly Betts of
+Cambridge, the author of the Survex Survey Program. Parts are by Patrick Warren
+and Andy Waddington (also of Cambridge) and I apologise to them for not obtaining
+advance permission to `publish' their work. <P>
+
+Bill Purvis <P>
+
+<PRE>
+=================================================================================
+
+From: Olly <ojwb1@UK.AC.CAMBRIDGE.PHOENIX>
+Subject: Patrick Warren article from 1988 Cam U/gnd
+
+                      Treatment of Errors in Surveying
+
+ The errors that occur in surveying are no different to those that occur when
+making measurements in science or technology. They can be divided into two
+types: systematic errors which occur because of faulty calibration of
+instruments, or bad technique using them and random errors which occur because
+all instruments are limited in precision and no two readings can be exactly
+repeated. A further type of error often considered is the gross error, when the
+surveyor makes a silly mistake. These can be avoided by taking care at all
+stages of producing a survey, but usually can be recognised when plotting the
+survey by, for example, unusually large misclosures, reversed legs, the centre
+line drifts above ground, etc.
+
+ I won't cover surveying methods and reduction of survey data here; the best
+overall guide is "Surveying Caves" [BCRA, ed. B. Ellis, 1976] which also
+includes a chapter on errors in surveying, but doesn't cover random errors.
+
+ 1) Systematic Errors
+
+ These can and should be taken care of by calibrating instruments and knowing
+how to use them properly. We consider only the classical surveying
+instruments - compass, clino and tape.
+
+ Compass Correction - this can be found by taking two known points on a map
+and sighting the compass between them on the ground. Comparison between the
+compass reading and the bearing found from the map gives the amount to be added
+to or taken from a compass reading to get a correct bearing. The process should
+be repeated more than once in different directions to obtain a mean value. It is
+possible to go directly from a compass reading to a bearing with respect to True 
+North by including the magnetic deviation in the correction.
+
+ The effect on a survey of a systematic compass error is to rotate the whole
+survey by the error. No misclosure errors will be introduced into networks by
+missing out the compass correction, which is really only needed when marking
+North on the survey. If more than one compass is used however, the effect is
+not so simple and corrections for both should be found before plotting the
+survey.
+
+ Clino Correction - this can be found more simply than the compass correction
+by simply picking two points on the ground and measuring the vertical angle
+from one to the other and vice versa. These two readings should be of equal
+magnitude and opposite sign. The clino correction is simply the amount that
+has to be added to or taken from the two readings to make them satisfy this
+requirement. Again the calibration should be repeated more than once with 
+different elevations to find a mean value.
+
+ For the same reason that clino calibration is easier than compass calibration,
+its effect on a survey is more drastic. A systematic clino error causes the
+vertical elevation to become completely unpredictable - it depends on which
+legs were surveyed forwards and which backwards. In network caves such an error
+can lead to large vertical misclosures which a computer program will almost
+certainly not distribute correctly. For this reason it is much more important
+to have a good idea of the clino correction than the compass correction.
+
+ Tape correction - just make sure lengths are measured from the end of the
+tape! Some tapes (non metal ones) can sustain damaged ends and it may be easier
+to cut the end off and measure from further along. On old tapes, check that
+nobody has done this already!
+
+ 2) Random Errors
+
+ By their nature these can only be treated statistically, and estimates of
+their size will only be needed for surveys including closed loops. If none of
+your surveys are like that, don't bother confusing yourself over this part!
+
+ For surveys with loops, or networks, some estimate of the relative size of the
+random errors which cause misclosures is needed. Once these have been found the
+misclosure can be distributed back through the network. The only sensible way
+to do this is by least squares - see the author's detailed article in the
+previous Journal [CUCC Underground 1986-7] (also a forthcoming paper in cave
+science).
+
+ The analysis shows what we need to know are the standard deviations (std devs)
+for the Easting, Northing and Height changes (from now on I call these x,y,z
+respectively). Misclosure errors are distributed weighted with the square of
+this standard deviation, so a leg with twice the std dev as another gets four
+times the error. The network can be treated independently in the x, y and z
+directions (under some simplifying assumptions).
+
+ A typical leg has Length (L), Clino (C) and Bearing (T) readings. When these
+have been corrected for systematic errors, we can work out the Easting,
+Northing and Height changes (x,y,z):
+
+   x = L cos(C) sin(T)     y = L cos(C) cos(T)     z = L sin(C)
+
+The sources of random error in these are in the measurement of L, T and C.
+We take the approximate magnitudes of these errors to be dL, dT and dC
+respectively. These can be viewed as being the precision with which the
+measurement is made. A further source of error is in the station position. This
+we take as about dP in any direction, distributed equally over each of the three 
+directions x,y,z.
+
+ We can work out approximate standard deviations for the Easting, Northing and
+Height changes. Calling them sx, sy and sz respectively we get:
+
+   sx^2 = dP^2/3 + [x dL / L]^2 + [z sin(T) dC]^2 + [y dT]^2
+
+   sy^2 = dP^2/3 + [y dL / L]^2 + [z cos(T) dC]^2 + [x dT]^2
+
+   sz^2 = dP^2/3 + [z dL / L]^2 + [L cos(C) dC]^2
+
+Note that dC and dT must be in radians eq:- dT(radians) = dT(degrees)/57.30
+
+ The formulae are ambiguous for vertical legs, where there is no compass
+bearing. We should have instead:
+
+   sx^2 = sy^2 = dP^2 + 1/2 [L dC]^2
+
+         sz^2 = dP^2 + dL^2
+
+The effect can be achieved by using the previous formulae with a value of
+45 for the bearing. This doesn't of course have any affect on x,y,z.
+
+ What are the values of dP, dL, dC, dT? The BCRA survey centre line gradings
+[Surveying Caves] suggest for Grades 3 and 5 we use the values in table 1.
+
+ In table 2 there are some examples of standard deviations worked out for a
+range of leg lengths, for both approximately horizontal, and vertical legs. As
+can be seen there is some variation within one Grade, but Grade 3 errors
+are about five times greater than Grade 5. This leads us to conclude that one
+should either take all legs within a grade to have about the same error, or
+work each error out exactly - there aren't really any half-way options. It
+seems sensible only to include exact errors in a computer program, which can
+work them out easily enough. Such a program could also distribute the errors
+back according to least squares.
+
+ The factor of five between Grades 3 and 5 should be acknowledged however when
+distributing misclosures back - legs surveyed to Grade 3 should receive
+twenty-five times the error appropriated to legs surveyed to Grade 5.
+
+ Further Considerations
+
+ Legs surveyed to standards other than Grade 3 or 5 can have their errors
+taken into account in the same way. Since errors arising from measurement of
+L, T, C and station position should be roughly of the same magnitude, a
+guide is that the standard deviation is about the same as any one of
+these errors.
+
+ The above calculations shed light on the practice of distributing errors
+back directly proportional to L, the slope length.  This isn't right because 
+it ignores station position error, and doesn't take into account the variations 
+with compass bearing (T) and clino reading (C), which are significant. The size
+of these variations spoils any proportionality to slop length.  Comparing standard 
+deviations with slope lengths in table 2 illustrates this.
+
+ Be careful of using these formulae to freely - a computer which distributed
+a vertical misclosure along a canal passage would give a slope to the water's
+surface! The answer here is to set to zero (or make very small) the vertical
+standard deviations for legs surveyed along the canal.
+
+ Other methods must be applied to other techniques of surveying such as
+levelling or using a theodolite. Radio location is typical of these - not much
+has been done to estimate the errors which can occur. Generally depth
+measurement is less accurate than location of the null point; in good
+conditions the errors are quoted as being 2m-3m for location, and 5m-10m
+for depth, for a total depth of about 100m [Surveying Caves].
+
+It is quite important to know the errors since most radio locations are part of
+loops, surveyed back on the surface to the cave entrance, and we need to
+know how much mislosure can be attributed to the radio location. Too little
+would distort the survey and too much would remove the point of doing a radio
+location in the first place.
+
+
+Source of Random Error     Symbol      Grade 3          Grade 5
+Station position error       dP         0.50m            0.10m
+Length error                 dL         0.50m            0.10m
+Compass error                dT     2.5 (0.044rad)   1.0 (0.018rad)
+Clino error                  dC     2.5 (0.044rad)   1.0 (0.018rad)
+
+  Table 1  -  Suggested values for random errors.
+
+
+     Length    Clino   Bearing        Easting   Northing   Height
+      (L)       (C)      (T)            (x)       (y)       (z)
+A    2.18m      +5       010           0.38m     2.14m     0.19m
+B    6.09       +3       297          -5.42      2.76      0.32
+C   10.83       -7       135           7.60     -7.60     -1.32
+D    3.47      -90      (045)          0.00      0.00     -3.47
+E    6.70      -90      (045)          0.00      0.00     -6.70
+F   11.35      -90      (045)          0.00      0.00    -11.35
+
+
+     sx      sy      sz            sx      sy      sz
+A   0.32m   0.57m   0.31m         0.07m   0.11m   0.07m
+B   0.54    0.44    0.39          0.12    0.11    0.12
+C   0.56    0.56    0.55          0.16    0.16    0.20
+D   0.31    0.31    0.58          0.07    0.07    0.12
+E   0.36    0.36    0.58          0.10    0.10    0.12
+F   0.45    0.45    0.58          0.15    0.15    0.12
+          Grade  3                      Grade  5
+
+  Table 2  -  Examples of legs, and their random error estimates.
+
+=============================================================================
+
+From: ojwb1@uk.ac.cam.cus (O.J.W. Betts)
+Subject: Article about error formulae
+
+Note: I think dD in eqn (10) should read dZ (I've done some calcns) - Olly
+
+With the coming of cheap computing power, the days of working out the
+coordinates of a cave survey by hand and adjusting loops by eye are
+fast fading. Unfortunately, surveys are still as subject to error as
+ever they were and it is useful to use that computing power to detect
+gross errors and distribute the random error corrections around loops.
+Long standing readers of this august journal will have noticed that
+the topic of cave survey error distribution is as popular now as the
+subject of battery chargers was a few years ago.
+
+The method of least squares can be used to calculate the error corrections
+to be applied to a survey traverse. The algorithm of Warren (1988) has now
+been implemented in at least two survey reduction programs, and is proving
+very successful. Once a correction has been calculated for a traverse,
+however, the question of how to distribute this correction among the survey
+legs arises. As Warren (1988) pointed out, there is little justification
+for splitting the correction up proportionately by length of survey leg, as
+at least part of the error is attributable to station position error. The
+solution both for the survey leg weighting in the initial least squares
+analysis and for the eventual distribution of the error along the traverse
+is to form an estimate of the standard deviation of the errors associated
+with each leg. Warren gave formulae for these variances as follows :
+
+sx^2 = dP^2 /3 + [x dL/L]^2 + [z sin(T) dC]^2 + [y dT]^2    ... (1)
+sy^2 = dP^2 /3 + [y dL/L]^2 + [z cos(T) dC]^2 + [x dT]^2    ... (2)
+sz^2 = dP^2 /3 + [z dL/L]^2 + [L cos(C) dC]^2               ... (3)
+     for inclined legs and 
+
+sx^2 = sy^2 = dP^2 /3 + 1/2 [L dC]^2                        ... (4)
+sz^2        = dP^2 /3 + dL^2                                ... (5)
+     for vertical legs
+
+where dP, dL, dC and dT are the standard errors associated with the
+measurements of station position, leg length, clinometer and compass
+respectively. It is clear that equation (3) reduces to (5) for vertical
+survey legs. However, equations (1) and (2) don't reduce to equation
+(4). While the second and fourth terms disappear, the third term
+becomes meaningless as T becomes irrelevant. Making the horizontal
+error on a vertical leg proportional to its length is sound, and the
+second term of equation (4) represents a circular distribution of
+error around the calculated point, which is what we would expect.
+
+A problem arises, however, with equations (1) and (2) for legs which
+are very nearly vertical, but not quite. To take a
+concrete example, the slightly off-vertical leg with a compass bearing
+due east will have a much smaller error estimate in the north-south
+direction than the vertical leg, using equations (2) and (4). This is
+clearly anomalous and arises because the error in the compass direction
+is not independant of the inclination of the leg. At half a degree off
+the vertical, the difference between a leg going due east and one going
+due north is still less than a degree of arc.
+
+Revised equations which take this problem into account are now
+presented :
+
+sx^2 = dP^2 /3 + [x dL/L]^2 + [y dT]^2 +
+         [ 1/2 + sin^2(T)cos^2(C) ].[ z dC ]^2              ... (6)
+sy^2 = dP^2 /3 + [y dL/L]^2 + [x dT]^2 +
+         [ 1/2 + cos^2(T)cos^2(C) ].[ z dC ]^2              ... (7)
+sz^2 = dP^2 /3 + [z dL/L]^2 + [L cos(C) dC]^2               ... (8)
+
+
+An alternative method of surveying is used by the cave diving community,
+who use their depth gauges instead of clinometers. In this case, the
+uncertainties arising from station position, length and compass are very
+much the same as for conventional survey methods. However, depth gauge
+tolerances have a somewhat different effect, giving the equation :
+
+sz^2 = 2 dZ^2                                               ... (9)
+
+for the vertical error, where dZ is the error in each depth gauge reading.
+
+Horizontally, the situation is a little more complex. At first sight
+
+sx^2 = dP^2 /3 + [x dL/L]^2 + [y dT]^2 + [ dD z sin(T) / D ]^2  ... (10)
+
+where  D is the plan length: D = sqr( L^2 - z^2 ), would appear to be
+the error, but inspection will show that this predicts an infinite horizontal
+error if the length equals the depth change, and an imaginary error if the
+measured depth change exceeds the length of the leg (which is quite
+possible, on a vertical leg, given the measurement tolerances we are
+trying to deal with !). The simplest way out is to check if the
+calculated plan length is less than the errors in leg length and depth
+change added in quadrature, and if so, assume that the errors in both
+x and y directions are equal to this tolerance. ie.:
+
+if ( D^2 <= ( 2 dZ^2 + dL^2 )) then
+
+   sx^2 = sy^2 = ( 2 dZ^2 + dL^2 )                               ... (11)
+
+else use equation (10) above
+
+While this is less than wholly satisfactory, it does resolve the problem
+in a way suitable for implementation of a closure algorithm, and warns
+us that near-vertical legs are not a good idea in underwater cave surveys.
+Unfortunately, given the layout of a cave underwater, the diver may not
+have a great deal of choice.
+
+
+References :
+
+Warren, 1988 : 'Treatment of errors in surveying' in
+ Cambridge Underground Vol 3 no. 7 (1988), pp 16-18
+
+===============================================================================
+
+From: ojwb1@uk.ac.cam.cus (O.J.W. Betts)
+Subject: Survex error formulae
+
+Error Formulae:
+===============
+
+Normal (Spherical Polar) Data: 
+==============================
+dP = position standard error
+dL = length standard error
+dT = compass standard error
+dC = clino standard error
+
+x = L.sin(T).cos(C)
+y = L.cos(T).cos(C)
+z = L.sin(C)
+
+sx^2 = dP^2 /3 + [x dL/L]^2 + [y dT]^2 +
+         [ 1/2 + sin^2(T)cos^2(C) ].[ z dC ]^2
+sy^2 = dP^2 /3 + [y dL/L]^2 + [x dT]^2 +
+         [ 1/2 + cos^2(T)cos^2(C) ].[ z dC ]^2
+sz^2 = dP^2 /3 + [z dL/L]^2 + [L cos(C) dC]^2
+
+(Waddington, from CUCC Journal 1989 or 1990)
+
+Diving Data:
+============
+dP = position standard error
+dL = length standard error
+dT = compass standard error
+dZ = depth gauge standard error
+D  = sqr( L^2 - z^2 )  [plan length]
+
+if D^2 < 0 then
+  x=y=0
+else
+  x = D.sin(T)
+  y = D.cos(T)
+z = z
+
+if ( D^2 <= ( 2 dZ^2 + dL^2 )) then
+
+   sx^2 = sy^2 = ( 2 dZ^2 + dL^2 )
+
+else
+
+   sx^2 = dP^2 /3 + [x dL/L]^2 + [y dT]^2 + [ dZ z sin(T) / D ]^2
+   sy^2 = dP^2 /3 + [y dL/L]^2 + [x dT]^2 + [ dZ z cos(T) / D ]^2
+
+sz^2 = 2 dZ^2
+
+(Waddington, from CUCC Journal 1989 or 1990)
+
+Cartesian:
+==========
+dP = position standard error
+dx = Easting standard error
+dy = Northing standard error
+dz = Height change standard error
+
+x = x
+y = y
+z = z
+(sigh)
+
+sx^2 = dP^2 /3 + dx^2
+sy^2 = dP^2 /3 + dy^2
+sz^2 = dP^2 /3 + dz^2
+
+(Olly - what mathematical skill, heh?)
+
+Topofil:
+========
+dP = position standard error
+dl = counter standard error
+dT = compass standard error
+dC = clino standard error
+L  = <ToCount> - <FromCount>
+
+x = L.sin(T).cos(C)
+y = L.cos(T).cos(C)
+z = L.sin(C)
+
+sx^2 = dP^2 /3 + 2[x dl/L]^2 + [y dT]^2 +
+         [ 1/2 + sin^2(T)cos^2(C) ].[ z dC ]^2
+sy^2 = dP^2 /3 + 2[y dl/L]^2 + [x dT]^2 +
+         [ 1/2 + cos^2(T)cos^2(C) ].[ z dC ]^2
+sz^2 = dP^2 /3 + 2[z dl/L]^2 + [L cos(C) dC]^2
+
+(Olly, after Waddington)
+
+Cylindrical Polar:
+==================
+dP = position standard error
+dh = horizontal length standard error
+dT = compass standard error
+dZ = vertical standard error
+
+x = h sin T
+y = h cos T
+z = z
+
+sx^2 = dP^2 /3 + (x dh/h)^2 + [y dT]^2
+sy^2 = dP^2 /3 + (y dh/h)^2 + [x dT]^2
+sz^2 = dP^2 /3 + dZ^2
+
+(Olly)
+
+============================================================================
+
+From: ojwb1@uk.ac.cam.cus (O.J.W. Betts)
+Subject: Network reduction pseudocode
+
+Network reduction:
+{
+for each node in turn:
+ if it's an unfixed one node
+  follow traverse back to a non unfixed-2-node
+  store the traverse on stack
+  remove traverse from network
+
+for each node in turn:
+ if it's not an unfixed-2-node
+  follow each link to another non unfixed-2-node
+  store the traverse on stack
+  replace traverse with equivalent single leg
+
+where appropriate:
+ remove_parallel_legs();
+
+where appropriate:
+ remove_lollipop();
+
+where appropriate:
+ delta_star();
+}
+
+remove_parallel_legs()
+{
+/*  X Y            X Y
+   -o=o- becomes: -o-o-
+*/
+}
+
+remove_lollipop()
+{
+/*  X             X
+   -o-\ becomes: -o
+     \/
+stack removed legs
+}
+
+delta_star()
+{
+/*
+do a delta_star
+*/
+two_node(X);
+two_node(Y);
+two_node(Z);
+}
+
+one_node()
+{
+if not fixed, stack it and trim it; two_node(X);
+}
+
+two_node()
+{
+if not fixed, stack it, replace it and try remove parallel and remove lollipop;
+/* dx'=(vx1.dx2+vx2.dx1)/(vx1+vx2); vx'=vx1.vx2/(vx1+vx2); */
+}
+
+===============================================================================
+
+From: OJWB1@UK.AC.CAMBRIDGE.PHOENIX
+Subject: Loop closure etc.
+
+(Last amended 1993.03.07)
+Survex Docs oddments
+
+Loop Closure:
+
+If your survey data contains loops, then errors in the instrument readings will
+cause there to be misclosure around the loop ie The two "ends" don't meet.
+Survex will adjust the position of stations in loops, using the technique of
+least squares (a common statistical method of dealing with errors which "makes
+sense" in this context. Briefly, the station positions are chosen to minimise
+the sum of the squared errors in each leg in every loop.) All station positions
+are calculated together by this technique, so in no sense can one talk about
+the *order* in which loops are closed in a survey with multiple loops.
+
+However, there is another possible source of error in the survey data that
+Survex processes: Gross errors, ie those which come from misreading the
+instruments, or from mistakes in transcription (eg the compass reading is 017
+degrees, but the note-taker mis-hears and writes down 070. The occurrence of
+this sort of error can be reduced by careful thought. One good solution is for
+the note-taker to read back the numbers in a different way. So is the
+instrument man read 'Seventeen', the note-taker would reply 'Oh Seven Oh' and
+the error spotted. Another possibility is mis-typing data into the computer.
+Simply getting someone to read the data from the screen as you compare with the
+survey notes works well here. Several people are keen on having an entry screen
+which is layed out like the survey book page. Such a front end could easily be
+added to Survex.
+
+However, gross errors can slip through even the most careful schemes, so Survex
+will give the percentage error along each traverse that it has distributed an
+error along. Hopefully, future versions will allow you easily to experiment on
+the effect of breaking survey legs, to aid detection of gross errors.
+
+I have heard that a few people argue against closing loops, claiming that major
+errors must be due to gross errors, which should be eliminated by resurveying
+if they cannot be resolved in any other way. I do not agree with this view.
+Firstly, Kaninchenhoehle, for example, has several loops over a kilometre long.
+An error of 1% would give a misclosure of over 10m, which leaves a visible gap
+in the centre-line plot. More importantly, it may not be possible to resurvey
+(eg, survey data from an overseas expedition). If you get high errors in any
+traverses, you should certainly investigate why, but ultimately, you have a
+survey to produce and short of drawing your surveys with gaps in, what else can
+you do?
+
+If you really don't want your loops closed, simply break them by calling one of
+the points by a different name in each leg. Eg, a loop: 1-2-3-4-5-1 can be
+split to:1-2-3-4-5-1a. Survex says how many loops it found in the data, so you
+can easily spot if any loops are being closed. I may add an option to break any
+loops found, but this has a low relative priority.
+
+===============================================================================
+end of document
+last update 24 March, 1993
+
+
+</PRE>

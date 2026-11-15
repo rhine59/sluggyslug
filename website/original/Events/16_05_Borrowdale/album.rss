@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Aviemore March 2007</title>
+   	<link>.</link>
+        <generator>Jalbum 8.5</generator>
+   		<description>Phil and Rosie</description>
+        
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/image001.html#</link>
+            <pubDate>Tue, 17 May 2016 12:53:31 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/image001.jpg" width="450" height="299"/>
+            <media:content url="slides/image001.jpg" width="960" height="639"/>
+            <jalbum:original url="image001.jpg" width="960" height="639" fileSize="69931"/>
+            
+            <guid isPermaLink="false">slides/image001.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/image003.html#</link>
+            <pubDate>Tue, 17 May 2016 12:53:31 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/image003.jpg" width="450" height="299"/>
+            <media:content url="slides/image003.jpg" width="960" height="639"/>
+            <jalbum:original url="image003.jpg" width="960" height="639" fileSize="113207"/>
+            
+            <guid isPermaLink="false">slides/image003.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/image005.html#</link>
+            <pubDate>Tue, 17 May 2016 12:53:31 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/image005.jpg" width="299" height="450"/>
+            <media:content url="slides/image005.jpg" width="639" height="960"/>
+            <jalbum:original url="image005.jpg" width="639" height="960" fileSize="92465"/>
+            
+            <guid isPermaLink="false">slides/image005.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/image007.html#</link>
+            <pubDate>Tue, 17 May 2016 12:53:31 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/image007.jpg" width="450" height="299"/>
+            <media:content url="slides/image007.jpg" width="960" height="639"/>
+            <jalbum:original url="image007.jpg" width="960" height="639" fileSize="104742"/>
+            
+            <guid isPermaLink="false">slides/image007.jpg</guid>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>17_10_Hugh_Wye</title>
+   	<link>.</link>
+        <generator>jAlbum 9</generator>
+   		<description>Phil and Rosie</description>
+        <item>
+            <title>01 Birthday boy</title>
+            <link>slides/01 Birthday boy.html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/01 Birthday boy.jpg" width="296" height="450"/>
+            <media:content type="image/jpeg" url="slides/01 Birthday boy.jpg" width="674" height="1024"/>
+            <jalbum:original url="01 Birthday boy.jpg" width="1487" height="2256" fileSize="1380566"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel=""/>
+            <guid isPermaLink="false">slides/01 Birthday boy.jpg</guid>
+        </item>
+        <item>
+            <title>02. Welcome aboard</title>
+            <link>slides/02. Welcome aboard.html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/02. Welcome aboard.JPG" width="450" height="253"/>
+            <media:content type="image/jpeg" url="slides/02. Welcome aboard.JPG" width="1024" height="576"/>
+            <jalbum:original url="02. Welcome aboard.JPG" width="2656" height="1494" fileSize="2136261"/>
+            <jalbum:exif originalDate="" cameraMake="LG Electronics" cameraModel="LGLS991"/>
+            <guid isPermaLink="false">slides/02. Welcome aboard.JPG</guid>
+        </item>
+        <item>
+            <title>03. The Beer</title>
+            <link>slides/03. The Beer.html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/03. The Beer.JPG" width="450" height="253"/>
+            <media:content type="image/jpeg" url="slides/03. The Beer.JPG" width="1024" height="576"/>
+            <jalbum:original url="03. The Beer.JPG" width="2656" height="1494" fileSize="1754425"/>
+            <jalbum:exif originalDate="" cameraMake="LG Electronics" cameraModel="LGLS991"/>
+            <guid isPermaLink="false">slides/03. The Beer.JPG</guid>
+        </item>
+        <item>
+            <title>04. The Steam</title>
+            <link>slides/04. The Steam.html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/04. The Steam.jpg" width="450" height="307"/>
+            <media:content type="image/jpeg" url="slides/04. The Steam.jpg" width="1024" height="700"/>
+            <jalbum:original url="04. The Steam.jpg" width="2180" height="1492" fileSize="824674"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel=""/>
+            <guid isPermaLink="false">slides/04. The Steam.jpg</guid>
+        </item>
+        <item>
+            <title>05. The Transport</title>
+            <link>slides/05. The Transport.html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/05. The Transport.jpg" width="450" height="253"/>
+            <media:content type="image/jpeg" url="slides/05. The Transport.jpg" width="1024" height="577"/>
+            <jalbum:original url="05. The Transport.jpg" width="1929" height="1087" fileSize="1117179"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel=""/>
+            <guid isPermaLink="false">slides/05. The Transport.jpg</guid>
+        </item>
+        <item>
+            <title>06. Bracelands</title>
+            <link>slides/06. Bracelands.html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/06. Bracelands.JPG" width="450" height="337"/>
+            <media:content type="image/jpeg" url="slides/06. Bracelands.JPG" width="1024" height="768"/>
+            <jalbum:original url="06. Bracelands.JPG" width="4000" height="3000" fileSize="7004163"/>
+            <jalbum:exif originalDate="22/10/17 10:59" cameraMake="Panasonic" cameraModel="DMC-FS15"/>
+            <guid isPermaLink="false">slides/06. Bracelands.JPG</guid>
+        </item>
+        <item>
+            <title>07. The Magic Money Tree</title>
+            <link>slides/07. The Magic Money Tree.html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/07. The Magic Money Tree.JPG" width="328" height="450"/>
+            <media:content type="image/jpeg" url="slides/07. The Magic Money Tree.JPG" width="747" height="1024"/>
+            <jalbum:original url="07. The Magic Money Tree.JPG" width="2631" height="3602" fileSize="5219529"/>
+            <jalbum:exif originalDate="22/10/17 13:41" cameraMake="Panasonic" cameraModel="DMC-FS15"/>
+            <guid isPermaLink="false">slides/07. The Magic Money Tree.JPG</guid>
+        </item>
+        <item>
+            <title>08. Wye Bridge</title>
+            <link>slides/08. Wye Bridge.html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/08. Wye Bridge.JPG" width="450" height="337"/>
+            <media:content type="image/jpeg" url="slides/08. Wye Bridge.JPG" width="1024" height="768"/>
+            <jalbum:original url="08. Wye Bridge.JPG" width="3442" height="2584" fileSize="2560179"/>
+            <jalbum:exif originalDate="22/10/17 12:08" cameraMake="OLYMPUS CORPORATION" cameraModel="DMC-FS15"/>
+            <guid isPermaLink="false">slides/08. Wye Bridge.JPG</guid>
+        </item>
+        <item>
+            <title>09. Pixies </title>
+            <link>slides/09. Pixies .html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/09. Pixies .JPG" width="450" height="283"/>
+            <media:content type="image/jpeg" url="slides/09. Pixies .JPG" width="1024" height="646"/>
+            <jalbum:original url="09. Pixies .JPG" width="3463" height="2186" fileSize="5607117"/>
+            <jalbum:exif originalDate="23/10/17 14:25" cameraMake="Panasonic" cameraModel="DMC-FS15"/>
+            <guid isPermaLink="false">slides/09. Pixies .JPG</guid>
+        </item>
+        <item>
+            <title>10. Clearwell Caves</title>
+            <link>slides/10. Clearwell Caves.html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/10. Clearwell Caves.JPG" width="450" height="337"/>
+            <media:content type="image/jpeg" url="slides/10. Clearwell Caves.JPG" width="1024" height="768"/>
+            <jalbum:original url="10. Clearwell Caves.JPG" width="4000" height="3000" fileSize="2796835"/>
+            <jalbum:exif originalDate="24/10/17 13:56" cameraMake="Panasonic" cameraModel="DMC-FS15"/>
+            <guid isPermaLink="false">slides/10. Clearwell Caves.JPG</guid>
+        </item>
+        <item>
+            <title>12. cable Crossing</title>
+            <link>slides/12. cable Crossing.html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/12. cable Crossing.jpg" width="450" height="253"/>
+            <media:content type="image/jpeg" url="slides/12. cable Crossing.jpg" width="1024" height="576"/>
+            <jalbum:original url="12. cable Crossing.jpg" width="2117" height="1192" fileSize="1816157"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel=""/>
+            <guid isPermaLink="false">slides/12. cable Crossing.jpg</guid>
+        </item>
+        <item>
+            <title>13. Tintern Abbey</title>
+            <link>slides/13. Tintern Abbey.html#</link>
+            <pubDate>Wed, 15 Nov 2017 11:02:07 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/13. Tintern Abbey.JPG" width="450" height="337"/>
+            <media:content type="image/jpeg" url="slides/13. Tintern Abbey.JPG" width="1024" height="768"/>
+            <jalbum:original url="13. Tintern Abbey.JPG" width="2560" height="1920" fileSize="3171147"/>
+            <jalbum:exif originalDate="16/06/17 16:41" cameraMake="Panasonic" cameraModel="DMC-TZ70"/>
+            <guid isPermaLink="false">slides/13. Tintern Abbey.JPG</guid>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Aviemore March 2007</title>
+   	<link>.</link>
+        <generator>Jalbum 8.5</generator>
+   		<description>Phil and Rosie</description>
+        
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/1. Break in the rain.html#</link>
+            <pubDate>Thu, 02 Jan 2014 10:17:45 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/1. Break in the rain.jpg" width="450" height="337"/>
+            <media:content url="slides/1. Break in the rain.jpg" width="800" height="600"/>
+            <jalbum:original url="1. Break in the rain.jpg" width="3142" height="2357" fileSize="2593118"/>
+            <jalbum:exif originalDate="14/12/13 15:57" cameraMake="OLYMPUS CORPORATION" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/1. Break in the rain.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/2.View from Moses Trod.html#</link>
+            <pubDate>Thu, 02 Jan 2014 10:17:45 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2.View from Moses Trod.JPG" width="450" height="231"/>
+            <media:content url="slides/2.View from Moses Trod.JPG" width="800" height="411"/>
+            <jalbum:original url="2.View from Moses Trod.JPG" width="3264" height="1680" fileSize="1024642"/>
+            
+            <guid isPermaLink="false">slides/2.View from Moses Trod.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/3. Buttermere and Crummackwater.html#</link>
+            <pubDate>Thu, 02 Jan 2014 10:17:45 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/3. Buttermere and Crummackwater.JPG" width="450" height="337"/>
+            <media:content url="slides/3. Buttermere and Crummackwater.JPG" width="800" height="600"/>
+            <jalbum:original url="3. Buttermere and Crummackwater.JPG" width="4000" height="3000" fileSize="4173030"/>
+            <jalbum:exif originalDate="15/12/13 13:49" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/3. Buttermere and Crummackwater.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/4. Anne tells a joke.html#</link>
+            <pubDate>Thu, 02 Jan 2014 10:17:45 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/4. Anne tells a joke.jpg" width="450" height="241"/>
+            <media:content url="slides/4. Anne tells a joke.jpg" width="800" height="429"/>
+            <jalbum:original url="4. Anne tells a joke.jpg" width="2155" height="1157" fileSize="1012406"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel=""/>
+            <guid isPermaLink="false">slides/4. Anne tells a joke.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/5. Still on Moses Trod.html#</link>
+            <pubDate>Thu, 02 Jan 2014 10:17:45 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/5. Still on Moses Trod.JPG" width="450" height="337"/>
+            <media:content url="slides/5. Still on Moses Trod.JPG" width="800" height="600"/>
+            <jalbum:original url="5. Still on Moses Trod.JPG" width="4000" height="3000" fileSize="3642596"/>
+            <jalbum:exif originalDate="15/12/13 13:27" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/5. Still on Moses Trod.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/6. At Seathwaite.html#</link>
+            <pubDate>Thu, 02 Jan 2014 10:17:45 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/6. At Seathwaite.jpg" width="450" height="381"/>
+            <media:content url="slides/6. At Seathwaite.jpg" width="800" height="679"/>
+            <jalbum:original url="6. At Seathwaite.jpg" width="3258" height="2768" fileSize="3798996"/>
+            <jalbum:exif originalDate="15/12/13 17:07" cameraMake="OLYMPUS CORPORATION" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/6. At Seathwaite.jpg</guid>
+        </item>
+        
+    </channel>
+</rss>

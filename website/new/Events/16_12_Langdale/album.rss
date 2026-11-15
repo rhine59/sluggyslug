@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Aviemore March 2007</title>
+   	<link>.</link>
+        <generator>Jalbum 8.5</generator>
+   		<description>Phil and Rosie</description>
+        
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/1. Tarn Hows Team.html#</link>
+            <pubDate>Wed, 21 Dec 2016 15:18:24 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/1. Tarn Hows Team.JPG" width="450" height="337"/>
+            <media:content url="slides/1. Tarn Hows Team.JPG" width="1024" height="768"/>
+            <jalbum:original url="1. Tarn Hows Team.JPG" width="4000" height="3000" fileSize="4040561"/>
+            <jalbum:exif originalDate="10/12/16 14:58" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/1. Tarn Hows Team.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/2. Tarn Hows.html#</link>
+            <pubDate>Wed, 21 Dec 2016 15:18:24 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2. Tarn Hows.JPG" width="450" height="337"/>
+            <media:content url="slides/2. Tarn Hows.JPG" width="1024" height="768"/>
+            <jalbum:original url="2. Tarn Hows.JPG" width="4000" height="3000" fileSize="4244549"/>
+            <jalbum:exif originalDate="10/12/16 15:15" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/2. Tarn Hows.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/3. The Mountain Team.html#</link>
+            <pubDate>Wed, 21 Dec 2016 15:18:24 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/3. The Mountain Team.JPG" width="450" height="287"/>
+            <media:content url="slides/3. The Mountain Team.JPG" width="1024" height="655"/>
+            <jalbum:original url="3. The Mountain Team.JPG" width="1260" height="806" fileSize="949516"/>
+            <jalbum:exif originalDate="10/12/16 11:15" cameraMake="Panasonic" cameraModel="DMC-TZ80"/>
+            <guid isPermaLink="false">slides/3. The Mountain Team.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/4. Above Dungeon Ghyll.html#</link>
+            <pubDate>Wed, 21 Dec 2016 15:18:24 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/4. Above Dungeon Ghyll.jpg" width="450" height="337"/>
+            <media:content url="slides/4. Above Dungeon Ghyll.jpg" width="1024" height="768"/>
+            <jalbum:original url="4. Above Dungeon Ghyll.jpg" width="1650" height="1238" fileSize="749326"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel=""/>
+            <guid isPermaLink="false">slides/4. Above Dungeon Ghyll.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/5. The Feast.html#</link>
+            <pubDate>Wed, 21 Dec 2016 15:18:24 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/5. The Feast.JPG" width="450" height="337"/>
+            <media:content url="slides/5. The Feast.JPG" width="1024" height="768"/>
+            <jalbum:original url="5. The Feast.JPG" width="4000" height="3000" fileSize="4441916"/>
+            <jalbum:exif originalDate="10/12/16 22:06" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/5. The Feast.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/6. Elterwater.html#</link>
+            <pubDate>Wed, 21 Dec 2016 15:18:24 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/6. Elterwater.JPG" width="450" height="337"/>
+            <media:content url="slides/6. Elterwater.JPG" width="1024" height="768"/>
+            <jalbum:original url="6. Elterwater.JPG" width="4000" height="3000" fileSize="4309864"/>
+            <jalbum:exif originalDate="11/12/16 15:53" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/6. Elterwater.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/7.Matthew on Black Crag.html#</link>
+            <pubDate>Wed, 21 Dec 2016 15:18:24 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/7.Matthew on Black Crag.JPG" width="336" height="450"/>
+            <media:content url="slides/7.Matthew on Black Crag.JPG" width="766" height="1024"/>
+            <jalbum:original url="7.Matthew on Black Crag.JPG" width="1712" height="2288" fileSize="1547566"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/7.Matthew on Black Crag.JPG</guid>
+        </item>
+        
+    </channel>
+</rss>

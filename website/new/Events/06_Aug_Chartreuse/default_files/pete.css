@@ -1,0 +1,87 @@
+BODY {
+	BACKGROUND: #e0e0ff; COLOR: #000000
+}
+TD {
+	FONT-FAMILY: "Comic Sans MS", "arial", "helvetica", "verdana", sans-serif
+}
+TH {
+	FONT-FAMILY: "Comic Sans MS", "arial", "helvetica", "verdana", sans-serif
+}
+P {
+	FONT-FAMILY: "Comic Sans MS", "arial", "helvetica", "verdana", sans-serif
+}
+ADDRESS {
+	FONT-FAMILY: "Comic Sans MS", "arial", "helvetica", "verdana", sans-serif
+}
+H1 {
+	FONT-FAMILY: "Comic Sans MS", "arial", "helvetica", "verdana", sans-serif
+}
+H2 {
+	FONT-FAMILY: "Comic Sans MS", "arial", "helvetica", "verdana", sans-serif
+}
+H3 {
+	FONT-FAMILY: "Comic Sans MS", "arial", "helvetica", "verdana", sans-serif
+}
+H4 {
+	FONT-FAMILY: "Comic Sans MS", "arial", "helvetica", "verdana", sans-serif
+}
+H5 {
+	FONT-FAMILY: "Comic Sans MS", "arial", "helvetica", "verdana", sans-serif
+}
+H6 {
+	FONT-FAMILY: "Comic Sans MS", "arial", "helvetica", "verdana", sans-serif
+}
+H1 {
+	TEXT-ALIGN: center
+}
+H2 {
+	TEXT-ALIGN: center
+}
+H1 {
+	COLOR: navy
+}
+H2 {
+	COLOR: navy
+}
+ADDRESS {
+	COLOR: navy
+}
+HR {
+	COLOR: navy
+}
+HR.wide {
+	CLEAR: both
+}
+A:link {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: navy
+}
+A:active {
+	COLOR: #ff0000
+}
+TD.topbar {
+	FONT-WEIGHT: bold; FONT-SIZE: large; BACKGROUND: teal; COLOR: yellow; TEXT-ALIGN: center
+}
+TH.infobox {
+	FONT-WEIGHT: bold; FONT-SIZE: large; BACKGROUND: teal; COLOR: yellow; TEXT-ALIGN: center
+}
+A.topbar:link {
+	COLOR: yellow; TEXT-DECORATION: none
+}
+A.topbar:visited {
+	COLOR: yellow; TEXT-DECORATION: none
+}
+A.topbar:active {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.topbar:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+TD.infobox {
+	BACKGROUND: #ffffa0; COLOR: #000000
+}
+ADDRESS {
+	FONT-SIZE: smaller; TEXT-ALIGN: right
+}

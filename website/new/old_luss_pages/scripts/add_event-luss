@@ -1,0 +1,168 @@
+#!/usr/local/bin/perl
+# @(#) notice  ??.?? sean Fri Jun 23 11:29:44 BST 1995 - changed paths for file to suite new tina
+# @(#) notice  l1.00 arb Tue Jul  5 16:04:49 BST 1994 -
+# @(#) comment d1.01 arb Thu Jun  2 13:59:58 BST 1994 - added checks for ""
+# @(#) comment d1.01 arb Wed Jun  1 15:43:09 BST 1994 - added real name
+# @(#) comment d1.00 arb Wed Apr 20 12:25:52 BST 1994
+
+$len=$ENV{'CONTENT_LENGTH'};
+$request_method=$ENV{'REQUEST_METHOD'};
+$content_type=$ENV{'CONTENT_TYPE'};
+$remote_user=$ENV{'REMOTE_USER'};
+$remote_addr=$ENV{'REMOTE_ADDR'};
+$remote_host=$ENV{'REMOTE_HOST'};
+$content_len=$ENV{'CONTENT_LENGTH'};
+@vars=();
+
+$noticesfile="/export/home/www/htdocs/clubs/luss/Notices/index.html";
+$logfile="/export/home/www/htdocs/clubs/luss/Notices/log";
+$tmpfile="/tmp/notice.$$";
+$sendmail="/usr/lib/sendmail";
+$commentee="arb@ua.ndu.ac.uk";
+$script="notice";
+$subj="Notice";
+
+($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
+$noticesfilebackup="$noticesfile.$year.$mon.$mday.$hour.$min.$sec";
+
+print "Content-type: text/html\n";
+print "\n";
+print "<html><head><title>Thank you!</title></head><body>\n";
+
+if ($request_method ne "POST")
+{
+  print "Error1: This page should be accessed from a form.\n";
+  exit 1;
+}
+if ($content_type ne "application/x-www-form-urlencoded")
+{
+  print "Error2: This page should be accessed from a form.\n";
+  exit 1;
+}
+if ($content_len < 1)
+{
+  print "Error3: Content length must be > 0.\n";
+  exit 1;
+}
+
+if ($remote_user eq "")
+{
+  $remote_user="anon";
+}
+
+read(stdin, $input, $content_len);
+$input =~ tr/+/ /;
+$pos = index($input, "&");
+while ($pos != -1)
+{
+  $item = substr($input, 0, $pos);
+  $input = substr($input, $pos+1);
+  do process($item);
+  $pos = index($input, "&");
+}
+do process($input);
+
+if ( $vars{'name'} eq "" )
+{
+	print "Please enter your name.";
+	exit 1;
+}
+if ( $vars{'email'} eq "" )
+{
+	print "Please enter your e-mail address.";
+	exit 1;
+}
+if ( $vars{'maintext'} eq "" )
+{
+	print "Please enter a notice or event.";
+	exit 1;
+}
+$event=0;
+if ( $vars{'type'} eq "Event" )
+{
+	$event=1;
+	if ( $vars{'date'} eq "" ) { print "Please enter a date."; exit 1; }
+	if ( $vars{'time'} eq "" ) { print "Please enter a time."; exit 1; }
+	if ( $vars{'location'} eq "" ) { print "Please enter a location."; exit 1; }
+	print "Your event has been added.<p>Thank you.";
+}
+else
+{
+	print "Your notice has been added.<p>Thank you.";
+}
+
+
+#open(log, ">>".$logfile) || die("Cannot open temporary file, failed");
+##print log "To: $commentee\n";
+##print log "From: $vars{'email'} ($vars{'name'})\n";
+##print log "Date: ".`date`;
+##print log "Subject: $subj\n";
+##print log "X-Mailer: $script/httpd-1.2/notice-l1.00/sendmail\n";
+##print log "\n";
+#print log "Remote host   : $remote_host\n";
+#print log "Remote address: $remote_addr\n";
+#print log "Remote user   : $remote_user\n";
+#print log "Name          : $vars{'name'}\n";
+#print log "E-mail address: $vars{'email'}\n";
+#print log "Type          : $vars{'type'}\n";
+#print log "Date          : $vars{'date'}\n";
+#print log "Time          : $vars{'time'}\n";
+#print log "Location      : $vars{'location'}\n";
+#print log "\n$vars{'maintext'}\n\n";
+#close log;
+
+open(notices, $noticesfile) || die("Cannot open notices file, failed");
+open(tmp, ">".$tmpfile) || die("Cannot open tmp file, failed");
+
+while (<notices>)
+{
+	if (( $_ eq "<!-- Notices -->\n" && $event == 0) || ( $_ eq "<!-- Events -->\n" && $event == 1 ) )
+	{
+		print tmp "<LI>From: $vars{'name'}";
+		print tmp "(<A HREF=\"mailto:$vars{'email'}";
+		print tmp "\">";
+		print tmp "$vars{'email'}";
+		print tmp "</A>)<BR>\n";
+		if ( $event == 0 )
+		{
+			print tmp "$vars{'maintext'}\n";
+			print tmp "<!-- Notices -->\n";
+		}
+		else
+		{
+			print tmp "$vars{'date'} $vars{'time'} at $vars{'location'} : $vars{'maintext'}\n";
+			print tmp "<!-- Events -->\n";
+		}
+	}
+	else
+	{
+		print tmp;
+	}
+}
+
+close notices;
+close tmp;
+
+system "mv $noticesfile $noticesfilebackup";
+system "mv $tmpfile $noticesfile";
+chmod 0664,$noticesfilebackup,$noticesfile;
+#system "$sendmail $commentee < $logfile > /dev/null";
+unlink $tmp;
+exit 0;
+
+# ----------------------------------------------------------
+
+sub process
+{
+  local($i, $r, $ch, $pos);
+  local($s)=$_[0];
+  for ($i=0; $i<length($s); $i++)
+  {
+    $ch=substr($s,$i,1);
+    if ($ch eq "%") { $r .= pack("c",hex(substr($s,$i+1,2))); $i+=2; }
+    else { $r .= $ch; }
+  }
+  $pos=index($r,"=");
+  if ($pos == -1) { return; }
+  $vars{substr($r,0,$pos)}=substr($r,$pos+1);
+}

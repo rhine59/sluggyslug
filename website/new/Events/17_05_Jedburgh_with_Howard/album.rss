@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>17_05_Jedburgh_with_Howard</title>
+   	<link>.</link>
+        <generator>jAlbum 9</generator>
+   		<description>Phil and Rosie</description>
+        <item>
+            <title>1. Saturday night</title>
+            <link>slides/1. Saturday night.html#</link>
+            <pubDate>Thu, 08 Jun 2017 10:37:36 +0100</pubDate>
+            <description>ASCII</description>
+            <media:description type="html">ASCII</media:description>
+            <media:thumbnail url="thumbs/1. Saturday night.jpg" width="450" height="337"/>
+            <media:content type="image/jpeg" url="slides/1. Saturday night.jpg" width="1024" height="768"/>
+            <jalbum:original url="1. Saturday night.jpg" width="2560" height="1920" fileSize="663182"/>
+            <jalbum:exif originalDate="20/05/17 21:42" cameraMake="Pegatron" cameraModel="Hudl 2"/>
+            <guid isPermaLink="false">slides/1. Saturday night.jpg</guid>
+        </item>
+        <item>
+            <title>2. Saturday night</title>
+            <link>slides/2. Saturday night.html#</link>
+            <pubDate>Thu, 08 Jun 2017 10:37:36 +0100</pubDate>
+            <description>ASCII</description>
+            <media:description type="html">ASCII</media:description>
+            <media:thumbnail url="thumbs/2. Saturday night.jpg" width="450" height="337"/>
+            <media:content type="image/jpeg" url="slides/2. Saturday night.jpg" width="1024" height="768"/>
+            <jalbum:original url="2. Saturday night.jpg" width="2560" height="1920" fileSize="746461"/>
+            <jalbum:exif originalDate="20/05/17 21:42" cameraMake="Pegatron" cameraModel="Hudl 2"/>
+            <guid isPermaLink="false">slides/2. Saturday night.jpg</guid>
+        </item>
+        <item>
+            <title>3. Wet Dawyk</title>
+            <link>slides/3. Wet Dawyk.html#</link>
+            <pubDate>Thu, 08 Jun 2017 10:37:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/3. Wet Dawyk.jpg" width="336" height="450"/>
+            <media:content type="image/jpeg" url="slides/3. Wet Dawyk.jpg" width="766" height="1024"/>
+            <jalbum:original url="3. Wet Dawyk.jpg" width="1712" height="2288" fileSize="843205"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/3. Wet Dawyk.jpg</guid>
+        </item>
+        <item>
+            <title>4. Off roading in Dawyk</title>
+            <link>slides/4. Off roading in Dawyk.html#</link>
+            <pubDate>Thu, 08 Jun 2017 10:37:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/4. Off roading in Dawyk.jpg" width="450" height="336"/>
+            <media:content type="image/jpeg" url="slides/4. Off roading in Dawyk.jpg" width="1024" height="766"/>
+            <jalbum:original url="4. Off roading in Dawyk.jpg" width="2288" height="1712" fileSize="827969"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/4. Off roading in Dawyk.jpg</guid>
+        </item>
+        <item>
+            <title>5 The morning after</title>
+            <link>slides/5 The morning after.html#</link>
+            <pubDate>Thu, 08 Jun 2017 10:37:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/5 The morning after.jpg" width="336" height="450"/>
+            <media:content type="image/jpeg" url="slides/5 The morning after.jpg" width="766" height="1024"/>
+            <jalbum:original url="5 The morning after.jpg" width="1712" height="2288" fileSize="762447"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/5 The morning after.jpg</guid>
+        </item>
+        <item>
+            <title>Hadrians Wall</title>
+            <link>slides/Hadrians Wall.html#</link>
+            <pubDate>Thu, 08 Jun 2017 10:37:36 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Hadrians Wall.jpg" width="450" height="337"/>
+            <media:content type="image/jpeg" url="slides/Hadrians Wall.jpg" width="1024" height="768"/>
+            <jalbum:original url="Hadrians Wall.jpg" width="4000" height="3000" fileSize="3480201"/>
+            <jalbum:exif originalDate="21/05/17 16:29" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/Hadrians Wall.jpg</guid>
+        </item>
+    </channel>
+</rss>

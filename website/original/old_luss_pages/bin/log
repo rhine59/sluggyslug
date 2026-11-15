@@ -1,0 +1,26 @@
+#! /bin/sh
+#  log script
+
+LOG="/home/tina/www/htdocs/clubs/luss/luss_log.`date +%y%m%d%H%M%S`"
+
+echo "<HEAD><TITLE>Html Access Log Of Lancaster University Speleological Society</TITLE>" $NEWLINE >> $LOG
+echo "<H1>Html Access Log Of Lancaster University Speleological Society</H1></HEAD>" $NEWLINE >> $LOG
+echo "<BODY>" $NEWLINE >> $LOG
+
+echo "This is not a true log of all access to the LUSS pages. It is just a list of the sites from which there have been access of the LUSS pages at Lancaster University. Most local accesses have been filtered out." $NEWLINE >> $LOG
+echo "This log was last created at : ">> $LOG
+date >> $LOG
+echo ". <HR>" >> $LOG
+
+#cat  /home/tina/www/etc/httpd_1.2/logs/access_log | grep luss | grep -v dolphin | grep -v harlequin | grep -v lancs | grep -v cent1 | grep -v edc | grep -v dcl-sparx1 | grep -v dcl-sparx2 | grep -v sparx3 | grep -v csmac | grep -v music-mac | grep -v mac-jacqui | grep -v snowdon | grep -v scafell  | grep -v nevis | grep -v gable | grep -v lonsdale | grep -v mbryson | grep -v tina | grep -v herbert | grep -v sullivan | grep -v gilbert | grep -v sinbad | grep -v columbine | grep -v njy | grep -v kvalley | grep -v mac-jjg | grep -v mac-tam | grep -v dcl-orly | grep -v ling-testbed | grep -v 'sea ' | grep -v pkl | grep -v arb | grep -v egb00skylab1 | grep -v orchid | grep -v gawain | grep -v asl | grep -v pierrot  | cut -d " " -f 1 | sort -u >> $LOG 
+
+cat /home/tina/www/etc/httpd_1.2/logs/access_log | grep luss | cut -d " " -f 1 | grep "." | grep -v lancs | sort -u >> $LOG 
+
+echo "<P></BODY><ADDRESS><HR>LUSS@lancaster.ac.uk</ADDRESS>" $NEWLINE >> $LOG
+
+echo "<HR>See Also...<A HREF="http://www.comp.lancs.ac.uk/clubs/luss/index.html">Toplevel</A><A HREF="http://www.comp.lancs.ac.uk/clubs/luss/Notices/index.html">Notices</A><A HREF="http://www.comp.lancs.ac.uk/clubs/luss/Trivia/index.html">Trivia</A><A HREF="http://www.comp.lancs.ac.uk/clubs/luss/Articles/index.html">Articles</A><A HREF="http://www.comp.lancs.ac.uk/clubs/luss/Pictures/index.html">Pictures</A><A HREF="http://www.comp.lancs.ac.uk/clubs/luss/Maps/index.html">Maps</A><A HREF="http://www.comp.lancs.ac.uk/clubs/luss/WWW/index.html">WWW</A>" $NEWLINE >> $LOG
+ 
+
+/bin/rm /home/tina/www/htdocs/clubs/luss/luss_log.html
+/bin/cp $LOG /home/tina/www/htdocs/clubs/luss/luss_log.html
+

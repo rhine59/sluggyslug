@@ -1,0 +1,31 @@
+services:
+  slugs-editor:
+    build: .
+    image: slugs-editor:1.0
+    container_name: slugs-editor
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:9087:8080"
+    environment:
+      COOKIE_SECURE: "1"
+      TRUST_PROXY: "1"
+    volumes:
+      - /volume1/web/slugs:/site:rw
+      - slugs-editor-data:/data
+    read_only: true
+    tmpfs:
+      - /tmp:size=128m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 512m
+    pids_limit: 128
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+volumes:
+  slugs-editor-data:
+    name: slugs-editor-data

@@ -1,0 +1,40 @@
+<FORM>
+<TABLE WIDTH=100% BORDER=0>
+<TR><TD ALIGN=LEFT>
+Password <INPUT NAME="password" TYPE=PASSWORD VALUE="%%password%%">
+%%valid%%
+</INPUT>
+</TD><TD ALIGN=RIGHT>
+<INPUT NAME="screen" TYPE=RADIO VALUE="%%screen%%" CHECKED=TRUE>
+						Screen %%screen%% </INPUT>
+</TD></TR>
+</TABLE>
+<P>
+This search will try six different types of search in turn until a match is
+found. Alternatively the search type can be specified by writing 'LANGUAGE='
+etc.
+<P>The searches are
+<OL>
+<LI> INDEX: search for the local database index of the page.
+<LI> TOPIC: search for a topic in the
+<A HREF="http://www.comp.lancs.ac.uk/cgi-bin/clubs/luss/topiclist.sh?list=topic">
+list</A>.
+<LI> COUNTRY: search for infomation about a
+<A HREF="http://www.comp.lancs.ac.uk/cgi-bin/clubs/luss/topiclist.sh?list=country">
+country</A>.
+<LI> LANGUAGE: search for a page of a specific
+<A HREF="http://www.comp.lancs.ac.uk/cgi-bin/clubs/luss/topiclist.sh?list=language">
+language</A>.
+<LI> KEYWORD: search for a keyword in the title. (ie. LUSS or Lancaster)
+<LI> MOUNTED: search for pages mounted in a specific country.
+</OL>
+<P>
+Enter Search string:<BR>
+<TABLE BORDER=0 WIDTH=100%><TR><TD ALIGN=LEFT>
+<INPUT TYPE=TEXT NAME="search" VALUE="%%search%%" WIDTH=20></INPUT>
+</TD><TD ALIGN=RIGHT>
+<INPUT TYPE=SUBMIT VALUE="SUBMIT"></INPUT>
+</TD></TR></TABLE>
+</FORM>
+<HR>
+<P>

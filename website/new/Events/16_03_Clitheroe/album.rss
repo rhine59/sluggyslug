@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Aviemore March 2007</title>
+   	<link>.</link>
+        <generator>Jalbum 8.5</generator>
+   		<description>Phil and Rosie</description>
+        
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/David, Pete, Anne and Ken.html#</link>
+            <pubDate>Tue, 22 Mar 2016 10:05:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/David, Pete, Anne and Ken.jpg" width="450" height="336"/>
+            <media:content url="slides/David, Pete, Anne and Ken.jpg" width="1024" height="765"/>
+            <jalbum:original url="David, Pete, Anne and Ken.jpg" width="2005" height="1499" fileSize="1255543"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/David, Pete, Anne and Ken.jpg</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Don't ask!!.html#</link>
+            <pubDate>Tue, 22 Mar 2016 10:05:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Don't ask!!.JPG" width="450" height="336"/>
+            <media:content url="slides/Don't ask!!.JPG" width="1024" height="766"/>
+            <jalbum:original url="Don't ask!!.JPG" width="2288" height="1712" fileSize="734899"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/Don't ask!!.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Ken and Anne.html#</link>
+            <pubDate>Tue, 22 Mar 2016 10:05:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Ken and Anne.JPG" width="450" height="336"/>
+            <media:content url="slides/Ken and Anne.JPG" width="1024" height="766"/>
+            <jalbum:original url="Ken and Anne.JPG" width="2288" height="1712" fileSize="814542"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/Ken and Anne.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Owens family.html#</link>
+            <pubDate>Tue, 22 Mar 2016 10:05:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Owens family.JPG" width="450" height="336"/>
+            <media:content url="slides/Owens family.JPG" width="1024" height="766"/>
+            <jalbum:original url="Owens family.JPG" width="2288" height="1712" fileSize="723267"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/Owens family.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Penny, Anne and Ken.html#</link>
+            <pubDate>Tue, 22 Mar 2016 10:05:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Penny, Anne and Ken.JPG" width="450" height="336"/>
+            <media:content url="slides/Penny, Anne and Ken.JPG" width="1024" height="766"/>
+            <jalbum:original url="Penny, Anne and Ken.JPG" width="2288" height="1712" fileSize="652955"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/Penny, Anne and Ken.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Sarah.html#</link>
+            <pubDate>Tue, 22 Mar 2016 10:05:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Sarah.JPG" width="450" height="336"/>
+            <media:content url="slides/Sarah.JPG" width="1024" height="766"/>
+            <jalbum:original url="Sarah.JPG" width="2288" height="1712" fileSize="835288"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/Sarah.JPG</guid>
+        </item>
+        
+    </channel>
+</rss>

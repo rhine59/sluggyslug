@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>caving</title>
+   	<link>.</link>
+        <generator>jAlbum 14.1</generator>
+   		<description></description>
+        <jalbum:absolutePath></jalbum:absolutePath>
+        <item>
+            <title>DSCF0008</title>
+            <link>slides/DSCF0008.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:01:12 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/DSCF0008.JPG" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/DSCF0008.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="Thu, 04 Aug 2005 02:11:13 +0000" cameraMake="FUJIFILM" cameraModel="FinePix A303  "/>
+            <guid isPermaLink="false">slides/DSCF0008.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF0010a</title>
+            <link>slides/DSCF0010a.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:01:12 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/DSCF0010a.JPG" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/DSCF0010a.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="Thu, 04 Aug 2005 02:11:57 +0000" cameraMake="FUJIFILM" cameraModel="FinePix A303  "/>
+            <guid isPermaLink="false">slides/DSCF0010a.JPG</guid>
+        </item>
+        <item>
+            <title>DSCF0012</title>
+            <link>slides/DSCF0012.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:01:12 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/DSCF0012.JPG" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/DSCF0012.JPG" width="800" height="600"/>
+            <jalbum:exif originalDate="Thu, 04 Aug 2005 02:34:44 +0000" cameraMake="FUJIFILM" cameraModel="FinePix A303  "/>
+            <guid isPermaLink="false">slides/DSCF0012.JPG</guid>
+        </item>
+    </channel>
+</rss>

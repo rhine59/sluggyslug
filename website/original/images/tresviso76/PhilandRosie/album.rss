@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Tresviso 1976 - Phil &amp; Rosie</title>
+   	<link>.</link>
+        <generator>Jalbum 8.5</generator>
+   		<description></description>
+        
+        
+        <item>
+            <title>pr-1</title>
+            <link>slides/pr-1.html#</link>
+            <pubDate>Wed, 01 Oct 2014 12:45:04 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/pr-1.jpg" width="360" height="353"/>
+            <media:content url="slides/pr-1.jpg" width="509" height="500"/>
+            <jalbum:original url="pr-1.jpg" width="509" height="500" fileSize="61784"/>
+            
+            <guid isPermaLink="false">slides/pr-1.jpg</guid>
+        </item>
+        
+        <item>
+            <title>pr-2</title>
+            <link>slides/pr-2.html#</link>
+            <pubDate>Wed, 01 Oct 2014 12:45:04 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/pr-2.jpg" width="350" height="360"/>
+            <media:content url="slides/pr-2.jpg" width="479" height="492"/>
+            <jalbum:original url="pr-2.jpg" width="479" height="492" fileSize="24959"/>
+            
+            <guid isPermaLink="false">slides/pr-2.jpg</guid>
+        </item>
+        
+        <item>
+            <title>pr-3</title>
+            <link>slides/pr-3.html#</link>
+            <pubDate>Wed, 01 Oct 2014 12:45:04 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/pr-3.jpg" width="357" height="360"/>
+            <media:content url="slides/pr-3.jpg" width="514" height="517"/>
+            <jalbum:original url="pr-3.jpg" width="514" height="517" fileSize="27321"/>
+            
+            <guid isPermaLink="false">slides/pr-3.jpg</guid>
+        </item>
+        
+        <item>
+            <title>pr-4</title>
+            <link>slides/pr-4.html#</link>
+            <pubDate>Wed, 01 Oct 2014 12:45:04 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/pr-4.jpg" width="328" height="360"/>
+            <media:content url="slides/pr-4.jpg" width="478" height="524"/>
+            <jalbum:original url="pr-4.jpg" width="478" height="524" fileSize="20658"/>
+            
+            <guid isPermaLink="false">slides/pr-4.jpg</guid>
+        </item>
+        
+        <item>
+            <title>pr-5</title>
+            <link>slides/pr-5.html#</link>
+            <pubDate>Wed, 01 Oct 2014 12:45:04 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/pr-5.jpg" width="355" height="360"/>
+            <media:content url="slides/pr-5.jpg" width="513" height="519"/>
+            <jalbum:original url="pr-5.jpg" width="513" height="519" fileSize="20632"/>
+            
+            <guid isPermaLink="false">slides/pr-5.jpg</guid>
+        </item>
+        
+        <item>
+            <title>pr-6</title>
+            <link>slides/pr-6.html#</link>
+            <pubDate>Wed, 01 Oct 2014 12:45:04 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/pr-6.jpg" width="324" height="360"/>
+            <media:content url="slides/pr-6.jpg" width="461" height="512"/>
+            <jalbum:original url="pr-6.jpg" width="461" height="512" fileSize="33352"/>
+            
+            <guid isPermaLink="false">slides/pr-6.jpg</guid>
+        </item>
+        
+    </channel>
+</rss>

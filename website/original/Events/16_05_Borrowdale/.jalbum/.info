@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_91" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>imageSettingsHash</string>
+   <string>636ff743aa64dc73705e38c28cbdfd0a</string>
+  </void>
+  <void method="put">
+   <string>title</string>
+   <string>7th /8th May: Camping in Borrowdale, and Force Crag Mine</string>
+  </void>
+ </object>
+</java>

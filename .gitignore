@@ -1,0 +1,38 @@
+# Credentials and local/runtime state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*ed25519*
+*.sqlite*
+**/setup-token
+**/session-key
+/editor/data/
+/editor/backups/
+/editor/locks/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+# Generated output
+/dist/
+/build/
+/artifacts/
+*.log
+
+# Preserve historical logs that are already part of the public archive.
+!/website/**/*.log
+
+# Bulk archive photographs remain on the NAS, not in Git history.
+/website/**/*.[jJ][pP][gG]
+/website/**/*.[jJ][pP][eE][gG]
+/website/**/*.[tT][iI][fF]
+/website/**/*.[tT][iI][fF][fF]
+/website/**/*.[hH][eE][iI][cC]
+/website/**/*.[hH][eE][iI][fF]
+# Keep the small curated layout images and theme header.
+!/website/new/assets/*
+!/website/original/images/header.jpg
+!/website/new/images/header.jpg

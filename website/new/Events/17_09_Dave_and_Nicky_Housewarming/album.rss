@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>17_09_Dave_and_Nicky_Housewarming</title>
+   	<link>.</link>
+        <generator>jAlbum 9</generator>
+   		<description>Phil and Rosie</description>
+        <item>
+            <title>1. Sunday walking group</title>
+            <link>slides/1. Sunday walking group.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:48:14 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/1. Sunday walking group.jpg" width="450" height="336"/>
+            <media:content type="image/jpeg" url="slides/1. Sunday walking group.jpg" width="1024" height="766"/>
+            <jalbum:original url="1. Sunday walking group.jpg" width="1364" height="1021" fileSize="729852"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/1. Sunday walking group.jpg</guid>
+        </item>
+        <item>
+            <title>2. Keighley Moor</title>
+            <link>slides/2. Keighley Moor.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:48:14 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2. Keighley Moor.JPG" width="450" height="337"/>
+            <media:content type="image/jpeg" url="slides/2. Keighley Moor.JPG" width="1024" height="768"/>
+            <jalbum:original url="2. Keighley Moor.JPG" width="4000" height="3000" fileSize="3712156"/>
+            <jalbum:exif originalDate="17/09/17 15:28" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/2. Keighley Moor.JPG</guid>
+        </item>
+        <item>
+            <title>3. Dave</title>
+            <link>slides/3. Dave.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:48:14 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/3. Dave.JPG" width="450" height="336"/>
+            <media:content type="image/jpeg" url="slides/3. Dave.JPG" width="1024" height="766"/>
+            <jalbum:original url="3. Dave.JPG" width="2288" height="1712" fileSize="892783"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/3. Dave.JPG</guid>
+        </item>
+        <item>
+            <title>4. Nicky</title>
+            <link>slides/4. Nicky.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:48:14 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/4. Nicky.jpg" width="337" height="450"/>
+            <media:content type="image/jpeg" url="slides/4. Nicky.jpg" width="768" height="1024"/>
+            <jalbum:original url="4. Nicky.jpg" width="1661" height="2214" fileSize="1367259"/>
+            <jalbum:exif originalDate="17/09/17 17:33" cameraMake="OLYMPUS CORPORATION" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/4. Nicky.jpg</guid>
+        </item>
+        <item>
+            <title>5. Matthew</title>
+            <link>slides/5. Matthew.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:48:14 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/5. Matthew.jpg" width="323" height="450"/>
+            <media:content type="image/jpeg" url="slides/5. Matthew.jpg" width="583" height="811"/>
+            <jalbum:original url="5. Matthew.jpg" width="583" height="811" fileSize="296534"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/5. Matthew.jpg</guid>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>17_10_Derbyshire_Walk</title>
+   	<link>.</link>
+        <generator>jAlbum 9</generator>
+   		<description>Phil and Rosie</description>
+        <item>
+            <title>1 The Team</title>
+            <link>slides/1 The Team.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:56:48 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/1 The Team.jpg" width="450" height="335"/>
+            <media:content type="image/jpeg" url="slides/1 The Team.jpg" width="1024" height="764"/>
+            <jalbum:original url="1 The Team.jpg" width="1391" height="1038" fileSize="1026928"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/1 The Team.jpg</guid>
+        </item>
+        <item>
+            <title>2 Parkhouse Hill and Chrome Hill</title>
+            <link>slides/2 Parkhouse Hill and Chrome Hill.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:56:48 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2 Parkhouse Hill and Chrome Hill.jpg" width="450" height="336"/>
+            <media:content type="image/jpeg" url="slides/2 Parkhouse Hill and Chrome Hill.jpg" width="1024" height="765"/>
+            <jalbum:original url="2 Parkhouse Hill and Chrome Hill.jpg" width="1716" height="1282" fileSize="1116340"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/2 Parkhouse Hill and Chrome Hill.jpg</guid>
+        </item>
+        <item>
+            <title>3 Can't resist a cave</title>
+            <link>slides/3 Can't resist a cave.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:56:48 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/3 Can't resist a cave.JPG" width="450" height="336"/>
+            <media:content type="image/jpeg" url="slides/3 Can't resist a cave.JPG" width="1024" height="766"/>
+            <jalbum:original url="3 Can't resist a cave.JPG" width="2288" height="1712" fileSize="875840"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/3 Can't resist a cave.JPG</guid>
+        </item>
+        <item>
+            <title>4 The Result</title>
+            <link>slides/4 The Result.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:56:48 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/4 The Result.JPG" width="336" height="450"/>
+            <media:content type="image/jpeg" url="slides/4 The Result.JPG" width="766" height="1024"/>
+            <jalbum:original url="4 The Result.JPG" width="1712" height="2288" fileSize="861735"/>
+            <jalbum:exif originalDate="30/11/02 00:00" cameraMake="OLYMPUS CORPORATION" cameraModel="C460ZdelSol"/>
+            <guid isPermaLink="false">slides/4 The Result.JPG</guid>
+        </item>
+        <item>
+            <title>5 Bill approaches Parkhouse Hill</title>
+            <link>slides/5 Bill approaches Parkhouse Hill.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:56:48 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/5 Bill approaches Parkhouse Hill.jpg" width="450" height="162"/>
+            <media:content type="image/jpeg" url="slides/5 Bill approaches Parkhouse Hill.jpg" width="1024" height="370"/>
+            <jalbum:original url="5 Bill approaches Parkhouse Hill.jpg" width="3974" height="1437" fileSize="1848562"/>
+            <jalbum:exif originalDate="12/11/17 15:47" cameraMake="OLYMPUS CORPORATION" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/5 Bill approaches Parkhouse Hill.jpg</guid>
+        </item>
+        <item>
+            <title>5. (alternative) approaching Parkhouse Hill </title>
+            <link>slides/5. (alternative) approaching Parkhouse Hill .html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:56:48 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/5. (alternative) approaching Parkhouse Hill .jpg" width="450" height="334"/>
+            <media:content type="image/jpeg" url="slides/5. (alternative) approaching Parkhouse Hill .jpg" width="1024" height="761"/>
+            <jalbum:original url="5. (alternative) approaching Parkhouse Hill .jpg" width="3000" height="2231" fileSize="2613057"/>
+            <jalbum:exif originalDate="12/11/17 15:47" cameraMake="OLYMPUS CORPORATION" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/5. (alternative) approaching Parkhouse Hill .jpg</guid>
+        </item>
+        <item>
+            <title>6 Parkhouse Hill</title>
+            <link>slides/6 Parkhouse Hill.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:56:48 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/6 Parkhouse Hill.JPG" width="450" height="337"/>
+            <media:content type="image/jpeg" url="slides/6 Parkhouse Hill.JPG" width="1024" height="768"/>
+            <jalbum:original url="6 Parkhouse Hill.JPG" width="4000" height="3000" fileSize="4279589"/>
+            <jalbum:exif originalDate="12/11/17 15:51" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/6 Parkhouse Hill.JPG</guid>
+        </item>
+        <item>
+            <title>7. Sheila climbing 'The Matterhorn of Dovedale</title>
+            <link>slides/7. Sheila climbing 'The Matterhorn of Dovedale.html#</link>
+            <pubDate>Wed, 15 Nov 2017 10:56:48 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/7. Sheila climbing 'The Matterhorn of Dovedale.JPG" width="450" height="337"/>
+            <media:content type="image/jpeg" url="slides/7. Sheila climbing 'The Matterhorn of Dovedale.JPG" width="1024" height="768"/>
+            <jalbum:original url="7. Sheila climbing 'The Matterhorn of Dovedale.JPG" width="4000" height="3000" fileSize="4337329"/>
+            <jalbum:exif originalDate="12/11/17 16:13" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/7. Sheila climbing 'The Matterhorn of Dovedale.JPG</guid>
+        </item>
+    </channel>
+</rss>

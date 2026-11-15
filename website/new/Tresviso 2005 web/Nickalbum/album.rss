@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Nick walk</title>
+   	<link>.</link>
+        <generator>jAlbum 14.1</generator>
+   		<description></description>
+        <jalbum:absolutePath></jalbum:absolutePath>
+        <item>
+            <title>P1020002</title>
+            <link>slides/P1020002.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:03:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1020002.jpg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/P1020002.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sun, 30 Nov 0002 00:00:00 +0000" cameraMake="OLYMPUS CORPORATION" cameraModel="X100,D540Z,C310Z"/>
+            <guid isPermaLink="false">slides/P1020002.jpg</guid>
+        </item>
+        <item>
+            <title>P1020009</title>
+            <link>slides/P1020009.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:03:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1020009.jpg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/P1020009.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sun, 30 Nov 0002 00:00:00 +0000" cameraMake="OLYMPUS CORPORATION" cameraModel="X100,D540Z,C310Z"/>
+            <guid isPermaLink="false">slides/P1020009.jpg</guid>
+        </item>
+        <item>
+            <title>P1020013</title>
+            <link>slides/P1020013.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:03:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1020013.jpg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/P1020013.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sun, 30 Nov 0002 00:00:00 +0000" cameraMake="OLYMPUS CORPORATION" cameraModel="X100,D540Z,C310Z"/>
+            <guid isPermaLink="false">slides/P1020013.jpg</guid>
+        </item>
+        <item>
+            <title>P1020006</title>
+            <link>slides/P1020006.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:03:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1020006.jpg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/P1020006.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sun, 30 Nov 0002 00:00:00 +0000" cameraMake="OLYMPUS CORPORATION" cameraModel="X100,D540Z,C310Z"/>
+            <guid isPermaLink="false">slides/P1020006.jpg</guid>
+        </item>
+        <item>
+            <title>P1020001</title>
+            <link>slides/P1020001.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:03:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1020001.jpg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/P1020001.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sun, 30 Nov 0002 00:00:00 +0000" cameraMake="OLYMPUS CORPORATION" cameraModel="X100,D540Z,C310Z"/>
+            <guid isPermaLink="false">slides/P1020001.jpg</guid>
+        </item>
+        <item>
+            <title>P1020010</title>
+            <link>slides/P1020010.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:03:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1020010.jpg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/P1020010.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sun, 30 Nov 0002 00:00:00 +0000" cameraMake="OLYMPUS CORPORATION" cameraModel="X100,D540Z,C310Z"/>
+            <guid isPermaLink="false">slides/P1020010.jpg</guid>
+        </item>
+        <item>
+            <title>P1020008</title>
+            <link>slides/P1020008.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:03:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1020008.jpg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/P1020008.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sun, 30 Nov 0002 00:00:00 +0000" cameraMake="OLYMPUS CORPORATION" cameraModel="X100,D540Z,C310Z"/>
+            <guid isPermaLink="false">slides/P1020008.jpg</guid>
+        </item>
+        <item>
+            <title>P1020007</title>
+            <link>slides/P1020007.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:03:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1020007.jpg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/P1020007.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sun, 30 Nov 0002 00:00:00 +0000" cameraMake="OLYMPUS CORPORATION" cameraModel="X100,D540Z,C310Z"/>
+            <guid isPermaLink="false">slides/P1020007.jpg</guid>
+        </item>
+        <item>
+            <title>P1020012</title>
+            <link>slides/P1020012.html</link>
+            <pubDate>Sun, 10 Dec 2017 11:03:16 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1020012.jpg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/P1020012.jpg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sun, 30 Nov 0002 00:00:00 +0000" cameraMake="OLYMPUS CORPORATION" cameraModel="X100,D540Z,C310Z"/>
+            <guid isPermaLink="false">slides/P1020012.jpg</guid>
+        </item>
+    </channel>
+</rss>

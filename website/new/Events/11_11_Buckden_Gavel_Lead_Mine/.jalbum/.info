@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_25" class="java.beans.XMLDecoder"> 
+ <object class="java.util.HashMap"> 
+  <void method="put"> 
+   <string>imageSettingsHash</string> 
+   <string>07fd6a4d642bfba86222d6c89f32676d</string> 
+  </void> 
+  <void method="put"> 
+   <string>title</string> 
+   <string>Slugs weekend in Borrowdale : 17th/18th December 2011.</string> 
+  </void> 
+  <void method="put"> 
+   <string>imageLinking</string> 
+   <string>LinkOriginalsViaScaled</string> 
+  </void> 
+ </object> 
+</java> 

@@ -1,0 +1,4 @@
+#!/bin/sh
+LINE="password=derek&text=hello+world&choice=England"
+export LINE
+sh extract.sh

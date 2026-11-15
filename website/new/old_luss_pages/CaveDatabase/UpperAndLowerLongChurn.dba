@@ -1,0 +1,34 @@
+cavealtitude = ?
+cavedepth = ?
+cavelength = ?
+cavename = Upper And Lower Long Churn
+permit = Yes
+permitfrom = Selside Farm, Selside, Ribblesdale.
+description = One of the interesting aspects of this cave(s) is its
+description = popularity and the resulting damage to the cave. This popularity
+description = is partiually due to the fact that lots of people go there as their first
+description = experience underground. (LUSS are also guilty of this). It does however
+description = give one the opportunity to point out to new cavers the environmental damage 
+description = that can result from over use/abuse of a cave.
+description = <P>
+description = Park on the track at Sellside paying your dues at the farm. Then make your
+description = way towards the large group of trees that surrounds Alum Pot. Pass Alum Pot
+description = on the right then turning toward the right cross the brook which cascades into the pot.
+description = <P>
+description = After about 75-100 yards the entrance to Upper and Lower Long Churn can be found.
+description = <P>
+description = Heading upstream (Upper Long Churn) the passage starts of at stooping height then gradually becomes
+description = narrower and taller. After only 3-4 metres a passage on the left can be
+description = seen which doubles back and joins up with Lower Long Churn further down
+description = stream. Continuing upstream bridging is sometimes necessary to 
+description = avoid getting wet feet. After about 50 metres we reach Dr. 
+description = Bannisters Hand Basin. Here a short climb exists leading to the surface, for which a hand line (20 metres) may be necessary.
+description = <P><A HREF = "http://www.comp.lancs.ac.uk/clubs/luss/Pictures/long-churn.gif"><IMG SRC = "http://www.comp.lancs.ac.uk/clubs/luss/Pictures/long-churn_icon.gif" ALIGN = right ></A>
+description = Downstream (Lower Long Churn) the Cheese Press is one of the features which novices can be "forced" through. 
+description = <P><em>More To Follow...</em>
+
+grade = Any
+grade = One
+gridreference = ??? ???
+location = Any
+location = AlumPot

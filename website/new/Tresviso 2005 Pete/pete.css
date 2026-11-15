@@ -1,0 +1,63 @@
+BODY 
+{
+	background: #e0e0ff; 
+	color: #000000;
+}
+
+TD, TH, P, ADDRESS, H1, H2, H3, H4, H5, H6
+{
+	font-family: "Comic Sans MS", "arial", "helvetica", "verdana", sans-serif;
+}
+H1, H2
+{
+	text-align: center;
+}
+H1, H2, ADDRESS, HR
+{
+	color: navy; 
+}
+HR.wide
+{
+	clear: both;
+}
+A:link 
+{
+	color: #0000ff;
+}
+A:visited 
+{
+	color: navy;
+}
+A:active 
+{
+	color: #ff0000;
+}
+TD.topbar, TH.infobox 
+{
+	background: teal; 
+	color: yellow; 
+	text-align: center;
+	font-size: large; 
+	font-weight: bold;
+}
+A.topbar:link, 
+A.topbar:visited 
+{
+	color: yellow; 
+	text-decoration: none;
+}
+A.topbar:active,
+A.topbar:hover 
+{
+	color: red; 
+	text-decoration: none;
+}
+TD.infobox {
+	background: #ffffa0; 
+	color: #000000;
+}
+ADDRESS 
+{
+	font-size: smaller; 
+	text-align: right;
+}

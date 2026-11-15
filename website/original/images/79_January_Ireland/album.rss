@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Ireland, January 1979 from Doth</title>
+   	<link>.</link>
+        <generator>Jalbum 8.5</generator>
+   		<description></description>
+        
+        
+        <item>
+            <title>79_January_Ireland_01</title>
+            <link>slides/79_January_Ireland_01.html#</link>
+            <pubDate>Tue, 07 Aug 2012 10:38:15 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/79_January_Ireland_01.jpg" width="395" height="400"/>
+            <media:content url="slides/79_January_Ireland_01.jpg" width="711" height="720"/>
+            <jalbum:original url="79_January_Ireland_01.jpg" width="2060" height="2086" fileSize="1398190"/>
+            
+            <guid isPermaLink="false">slides/79_January_Ireland_01.jpg</guid>
+        </item>
+        
+        <item>
+            <title>79_January_Ireland_02</title>
+            <link>slides/79_January_Ireland_02.html#</link>
+            <pubDate>Tue, 07 Aug 2012 10:38:15 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/79_January_Ireland_02.jpg" width="388" height="400"/>
+            <media:content url="slides/79_January_Ireland_02.jpg" width="700" height="720"/>
+            <jalbum:original url="79_January_Ireland_02.jpg" width="2044" height="2102" fileSize="1257268"/>
+            
+            <guid isPermaLink="false">slides/79_January_Ireland_02.jpg</guid>
+        </item>
+        
+    </channel>
+</rss>

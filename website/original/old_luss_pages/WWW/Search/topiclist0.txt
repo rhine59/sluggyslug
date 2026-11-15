@@ -1,0 +1,9 @@
+Content-type: text/html
+
+<HTML>
+<HEAD>
+<TITLE>Caving Search: %%list%%</TITLE>
+<CENTER><H1>Caving Search: %%list%%</H1></CENTER>
+</HEAD>
+
+<BODY>

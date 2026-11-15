@@ -1,0 +1,27 @@
+name: Editor tests
+on:
+  push:
+    paths: ['editor/**', 'tests/**', 'scripts/**', '.github/workflows/**']
+  pull_request:
+    paths: ['editor/**', 'tests/**', 'scripts/**', '.github/workflows/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  editor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          sparse-checkout: |
+            editor
+            tests
+            scripts
+            reports
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.14'
+      - run: pip install -r editor/requirements.txt
+      - run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - run: python scripts/package-editor.py
+      - run: docker build -t slugs-editor-ci editor

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Aviemore March 2007</title>
+   	<link>.</link>
+        <generator>Jalbum 8.5</generator>
+   		<description>Phil and Rosie</description>
+        
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/anne in the stream.html#</link>
+            <pubDate>Tue, 26 Nov 2013 16:31:51 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/anne in the stream.JPG" width="450" height="337"/>
+            <media:content url="slides/anne in the stream.JPG" width="700" height="525"/>
+            <jalbum:original url="anne in the stream.JPG" width="4000" height="3000" fileSize="3353563"/>
+            <jalbum:exif originalDate="23/11/13 16:36" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/anne in the stream.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Ken tries to remember what to do.html#</link>
+            <pubDate>Tue, 26 Nov 2013 16:31:51 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Ken tries to remember what to do.JPG" width="337" height="450"/>
+            <media:content url="slides/Ken tries to remember what to do.JPG" width="525" height="700"/>
+            <jalbum:original url="Ken tries to remember what to do.JPG" width="2304" height="3072" fileSize="3066796"/>
+            <jalbum:exif originalDate="23/11/13 13:44" cameraMake="OLYMPUS IMAGING CORP.  " cameraModel="u770SW,S770SW   "/>
+            <guid isPermaLink="false">slides/Ken tries to remember what to do.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Simon on the pitch.html#</link>
+            <pubDate>Tue, 26 Nov 2013 16:31:51 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Simon on the pitch.JPG" width="337" height="450"/>
+            <media:content url="slides/Simon on the pitch.JPG" width="525" height="700"/>
+            <jalbum:original url="Simon on the pitch.JPG" width="3000" height="4000" fileSize="3899087"/>
+            <jalbum:exif originalDate="23/11/13 15:32" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/Simon on the pitch.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/Taking a breather.html#</link>
+            <pubDate>Tue, 26 Nov 2013 16:31:51 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/Taking a breather.JPG" width="450" height="337"/>
+            <media:content url="slides/Taking a breather.JPG" width="700" height="525"/>
+            <jalbum:original url="Taking a breather.JPG" width="3072" height="2304" fileSize="3168556"/>
+            <jalbum:exif originalDate="23/11/13 14:01" cameraMake="OLYMPUS IMAGING CORP.  " cameraModel="u770SW,S770SW   "/>
+            <guid isPermaLink="false">slides/Taking a breather.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/The Exit.html#</link>
+            <pubDate>Tue, 26 Nov 2013 16:31:51 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/The Exit.JPG" width="450" height="337"/>
+            <media:content url="slides/The Exit.JPG" width="700" height="525"/>
+            <jalbum:original url="The Exit.JPG" width="3072" height="2304" fileSize="3104200"/>
+            <jalbum:exif originalDate="23/11/13 14:58" cameraMake="OLYMPUS IMAGING CORP.  " cameraModel="u770SW,S770SW   "/>
+            <guid isPermaLink="false">slides/The Exit.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/The Team.html#</link>
+            <pubDate>Tue, 26 Nov 2013 16:31:51 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/The Team.jpg" width="450" height="336"/>
+            <media:content url="slides/The Team.jpg" width="700" height="523"/>
+            <jalbum:original url="The Team.jpg" width="2280" height="1706" fileSize="2172382"/>
+            <jalbum:exif originalDate="23/11/13 12:52" cameraMake="OLYMPUS CORPORATION" cameraModel="u770SW,S770SW   "/>
+            <guid isPermaLink="false">slides/The Team.jpg</guid>
+        </item>
+        
+    </channel>
+</rss>

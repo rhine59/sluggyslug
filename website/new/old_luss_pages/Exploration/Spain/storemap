@@ -1,0 +1,9 @@
+#!/bin/sh
+for i
+do
+mv $i.d4 IslandDraw/
+mv $i.ps Postscript/
+mv $i.gif Maps/
+echo stored $i
+done
+exit

@@ -1,0 +1,41 @@
+Organisation of the database
+============================
+
+The database is contined in  two files. 'headers.search' and 'continuation.search'
+
+file: headers.search      :- list of urls
+CODE;home;language;created;modified;contents;abbreviation;name;url
+
+file: extras.search :- extra infomation contained on the page
+CODE;country;language;contents;location
+
+key:
+CODE         - is the index of the page
+home         - country the page is located in (see country.txt)
+language     - written language (see language.txt)
+created      - date page entered into this database
+modified     - last time this page was updated in this database
+contents     - contents of page (see subject.txt)
+abbreviation - ie. LUSS
+name         - ie. Lancaster University Speleological Society
+url          - full path
+country      - country written about
+location     - relative path to page, from home page
+
+Other files:
+file: country.search:-   list of countries,
+Country:International Distinguishing Sign(IDS):WWW address:other names
+
+file: continent.search:- list of continents and the countries they contain.
+Continent:Country(recorded using the IDS)
+
+file: subject.search:-   list of subjects that can be searched for.
+code:title
+
+file: language.search:-  list of languages.
+language
+
+Notes:
+the semicolon is the field seperator since the colon is used in the path url.
+lists are comma seperated.
+

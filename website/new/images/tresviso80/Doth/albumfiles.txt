@@ -1,0 +1,50 @@
+# This file is created by JAlbum. It sets custom file filtering and ordering for this image directory.
+# Each row indicate a file and it's order. Files not listed here are added to the end of the album
+# Rows beginning with "-" indicate excluded files.
+# Rows containing a tab character indicate links, where the text before the tab is the logical file name
+# and the path to the right is the target path.
+# Note: This file allows absolute paths to files and directories in other locations and thereby
+# allows you to compile albums consisting of files from several different locations.
+
+Tresviso_80_01.jpg
+Tresviso_80_02.jpg
+Tresviso_80_03.jpg
+Tresviso_80_04.jpg
+Tresviso_80_05.jpg
+Tresviso_80_06.jpg
+Tresviso_80_07.jpg
+Tresviso_80_08.jpg
+Tresviso_80_09.jpg
+Tresviso_80_10.jpg
+Tresviso_80_41.jpg
+Tresviso_80_11.jpg
+Tresviso_80_12.jpg
+Tresviso_80_13.jpg
+Tresviso_80_14.jpg
+Tresviso_80_15.jpg
+Tresviso_80_16.jpg
+Tresviso_80_17.jpg
+Tresviso_80_18.jpg
+Tresviso_80_18b.jpg
+Tresviso_80_19.jpg
+Tresviso_80_20.jpg
+Tresviso_80_21.jpg
+Tresviso_80_22.jpg
+Tresviso_80_23.jpg
+Tresviso_80_24.jpg
+Tresviso_80_25.jpg
+Tresviso_80_26.jpg
+Tresviso_80_27.jpg
+Tresviso_80_28.jpg
+Tresviso_80_29.jpg
+Tresviso_80_30.jpg
+Tresviso_80_31.jpg
+Tresviso_80_32.jpg
+Tresviso_80_33.jpg
+Tresviso_80_34.jpg
+Tresviso_80_35.jpg
+Tresviso_80_36.jpg
+Tresviso_80_37.jpg
+Tresviso_80_38.jpg
+Tresviso_80_39.jpg
+Tresviso_80_40.jpg

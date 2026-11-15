@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+
+    <channel>
+        <title>Aviemore March 2007</title>
+   	<link>.</link>
+        <generator>Jalbum 8.5</generator>
+   		<description>Phil and Rosie</description>
+        
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/P1080365.html#</link>
+            <pubDate>Fri, 25 Sep 2015 10:35:03 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1080365.JPG" width="450" height="337"/>
+            <media:content url="slides/P1080365.JPG" width="1024" height="768"/>
+            <jalbum:original url="P1080365.JPG" width="4000" height="3000" fileSize="6557188"/>
+            <jalbum:exif originalDate="19/09/15 15:40" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/P1080365.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/P1080382.html#</link>
+            <pubDate>Fri, 25 Sep 2015 10:35:03 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1080382.JPG" width="450" height="337"/>
+            <media:content url="slides/P1080382.JPG" width="1024" height="768"/>
+            <jalbum:original url="P1080382.JPG" width="4000" height="3000" fileSize="5452593"/>
+            <jalbum:exif originalDate="20/09/15 12:11" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/P1080382.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/P1080388.html#</link>
+            <pubDate>Fri, 25 Sep 2015 10:35:03 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1080388.JPG" width="450" height="337"/>
+            <media:content url="slides/P1080388.JPG" width="1024" height="768"/>
+            <jalbum:original url="P1080388.JPG" width="4000" height="3000" fileSize="4501256"/>
+            <jalbum:exif originalDate="20/09/15 12:48" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/P1080388.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/P1080391.html#</link>
+            <pubDate>Fri, 25 Sep 2015 10:35:03 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1080391.JPG" width="450" height="337"/>
+            <media:content url="slides/P1080391.JPG" width="1024" height="768"/>
+            <jalbum:original url="P1080391.JPG" width="4000" height="3000" fileSize="4222992"/>
+            <jalbum:exif originalDate="20/09/15 14:08" cameraMake="Panasonic" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/P1080391.JPG</guid>
+        </item>
+        
+        <item>
+            <title>Aviemore March 2007</title>
+            <link>slides/P1080395 edit.html#</link>
+            <pubDate>Fri, 25 Sep 2015 10:35:03 +0100</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/P1080395 edit.jpg" width="450" height="336"/>
+            <media:content url="slides/P1080395 edit.jpg" width="1024" height="766"/>
+            <jalbum:original url="P1080395 edit.jpg" width="3557" height="2663" fileSize="2936937"/>
+            <jalbum:exif originalDate="20/09/15 15:11" cameraMake="OLYMPUS CORPORATION" cameraModel="DMC-FS10"/>
+            <guid isPermaLink="false">slides/P1080395 edit.jpg</guid>
+        </item>
+        
+    </channel>
+</rss>
