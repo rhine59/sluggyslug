@@ -36,3 +36,7 @@ venv/
 !/website/new/assets/*
 !/website/original/images/header.jpg
 !/website/new/images/header.jpg
+
+# SSH access lists are supplied privately at build time.
+/shell/authorized_keys
+/shell/*inspect*.json

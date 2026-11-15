@@ -6,6 +6,7 @@ Source, assets and rebuild tools for the Society of Lancaster University Graduat
 | --- | --- |
 | `website/original/` | Preserved original pages, documents, galleries and supporting assets; bulk photographs remain on the NAS |
 | `website/new/` | Reorganised pages, repaired links, chronological events list, reports and small layout assets |
+| `shell/` | Isolated SSH/SFTP container source, rebuild, deployment and verification scripts |
 | `editor/` | `slugs-editor` application, vendored VvvebJs visual builder, Dockerfile and Compose configuration |
 | `tests/` | Account, permission, upload, backup, restore, conflict and site-integrity checks |
 | `scripts/` | Rebuild, packaging, testing and deployment helpers |
@@ -42,3 +43,7 @@ python3 scripts/package-editor.py --output dist/slugs-editor-container.zip
 [Full rebuild, setup and tests](docs/REBUILD-SETUP-TEST.md) · [Deploy on Synology](docs/DEPLOYMENT.md) · [Architecture](docs/ARCHITECTURE.md) · [Editor guide](docs/EDITOR.md) · [Test harness](docs/TESTING.md) · [Security and recovery](docs/SECURITY.md)
 
 Credentials, SSH keys, account databases and private revision backups are not part of this repository. Website photographs and documents retain their existing contributor copyright notices; no blanket licence is assigned to the archive. Third-party editor licences are included alongside their code.
+
+## SSH/SFTP container
+
+See [slugs-shell build, setup, test and recovery guide](shell/README.md). This is separate from the visual editor and uses SSH port 2234.

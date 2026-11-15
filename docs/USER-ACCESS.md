@@ -69,3 +69,5 @@ An editor administrator can reset another user's password through User accounts.
 - Internal service: `http://127.0.0.1:8097`, reached through the NAS HTTPS reverse proxy; not a public login address.
 - Repository: https://github.com/rhine59/sluggyslug (private).
 - Bulk photographs remain on the NAS; see [media restoration instructions](../README.md#rebuild-the-website).
+
+For SSH container source, key setup, rebuilds, tests and recovery, see [slugs-shell guide](../shell/README.md).

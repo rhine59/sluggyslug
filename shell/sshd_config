@@ -1,0 +1,23 @@
+Port 2222
+ListenAddress 0.0.0.0
+HostKey /hostkeys/ssh_host_ed25519_key
+PidFile /run/sshd.pid
+AuthorizedKeysFile /etc/ssh/slugs_authorized_keys
+PubkeyAuthentication yes
+AuthenticationMethods publickey
+PasswordAuthentication no
+KbdInteractiveAuthentication no
+PermitEmptyPasswords no
+PermitRootLogin no
+AllowUsers slugs
+DisableForwarding yes
+X11Forwarding no
+PermitUserRC no
+PermitUserEnvironment no
+PermitTTY yes
+StrictModes yes
+MaxAuthTries 3
+LoginGraceTime 30
+Subsystem sftp internal-sftp
+PrintMotd no
+LogLevel VERBOSE
