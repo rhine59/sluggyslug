@@ -22,6 +22,8 @@ The HTTPS reverse proxy destination was corrected to port 8097. The owner confir
 
 The application now retains forwarded headers at the Waitress boundary so Flask's configured ProxyFix can determine the public HTTPS origin. The reverse proxy supplies `X-Forwarded-Proto: https` and `X-Forwarded-Host: slugs-editor.granvillehouse.synology.me`. The origin/CSRF checks remain enabled. These settings require the backend to stay on loopback behind the trusted NAS proxy.
 
+Read-only public checks passed on 15 November 2026: HTTPS certificate validation, `/health` returned 200 with healthy status, unauthenticated `/api/files` returned 401, and the home/sign-in page returned 200. All nine backend/repository tests passed after the source update.
+
 Production visual-save/upload/restore and restricted-account acceptance checks have not been independently observed; the automated and local browser checks are described above. No production account database, private revision data or credentials are copied into this repository.
 
 ## Website history
