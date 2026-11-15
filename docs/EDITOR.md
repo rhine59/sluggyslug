@@ -23,7 +23,7 @@ Visit /setup over the editor's HTTPS URL, enter that code, and choose a username
 
 ## Editing
 
-Sign in, choose a folder, then choose Edit visually for an HTML page. Click/double-click text or images to edit them. Use Save to publish. Page scripts are disabled inside the editor's preview; open the public website to check interactive galleries. Source opens a text editor for HTML, CSS, JavaScript and other text files.
+Sign in, choose a folder, then choose Edit visually for an HTML page. Click/double-click text or images to edit them. Use Save to publish. Page scripts are disabled inside the editor's preview; open the public website to check interactive galleries. Source opens a text editor for HTML, CSS, JavaScript and other text files. Long source lines wrap to the window width without inserting line breaks into the saved file.
 
 Files & uploads lets you upload images, PDFs, Office documents, ZIP files, audio and video into your chosen website folder. The general uploader accepts up to 100 MB per file. The visual builder's image uploader accepts up to 20 MB. HEIC and SVG uploads are not supported; use JPEG, PNG or WebP for photographs. Executables/server scripts are not accepted by the uploader. Replacing an existing file requires confirmation and retains a backup.
 
