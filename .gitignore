@@ -40,3 +40,6 @@ venv/
 # SSH access lists are supplied privately at build time.
 /shell/authorized_keys
 /shell/*inspect*.json
+
+# Imported blog photographs are NAS-only; hashes are recorded in the media manifest.
+/website/new/blog-reports/media/

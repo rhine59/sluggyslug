@@ -35,3 +35,9 @@ The November 2026 link check was a dated audit, not continuous monitoring. Repor
 ## GitHub workflow access
 
 The runnable tests and an Actions workflow template are included. The template is stored under `ci/` because the current Git credential cannot create files under `.github/workflows/`. No broader GitHub permissions were requested.
+
+## Blog Archive import — 20 November 2026
+
+All 19 months listed in the source blog's Blog Archive were fetched and reconciled against its complete 28-post feed. All 28 full report bodies and 508 image resources are now local under `/new/blog-reports`, with an all-reports index and 19 publication-month indexes. Existing Events entries remain in the same event-date order; the 28 external post destinations now link to local copies, and a Blog Archive index link is available in Events. Original post/month source links remain available.
+
+Validation preserved all 28 post texts and all 100 Events entries, checked uploaded file hashes, and passed all 557 public HTTPS page/image checks. The original website outside `/new` was untouched. The repository reference check passed 52,012 local references. Photographs remain NAS-only with restoration metadata; the import coverage/publication report and repeatable tools are included in Git.
